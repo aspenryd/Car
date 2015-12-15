@@ -1,0 +1,55 @@
+CAR
+===
+
+
+Popup "Hyresman är ett företag" skall styras av parameter.
++ Parameter dg_timer i ini. <0=Visar ej, >0 visar i x sekunder, 0=visas till OK.
+
+Pristyp från kund slår inte igenom vid nytt kontrakt/Bokning.
++ Fixat 26/1-04
+
+Bilägarnummer sökning på reg.nummer via F6 (Kontroll att det finns).
++ Fungerar
+? Man kan göra ett referensfält i answer tabellen. då kan man lyfta den in
+  i kontraktet direkt.
+
+
+Vid sökning av historiska data skall delad betalar namn + enummer visas.
+(caption "Historik Återlämning")
++ Fixat
++ Numera fungerar urvalen
+
+Concatenerad info bör innehålla pristyp,prisklass och KM_Ut + Km_In.
++ Klart
+
+Vid enter på km_in (återlämning) fungerar detta inte. Detta händer när
+tilläggsfliken är öppen där knappen "lägg till" har propertyn default satt
+till True.
++ Fixat
++ Fixat bug vid felmeddelande access violation..
+
+En hjälpfil måste finnas till C2 som gör at inget felmeddelande kommer fram.
++ Car.hlp finns på sorek
+
+
+ACAR
+====
+
+Flikarna objekt och kunder är olika mellan car och acar. (Sökfunktion mm)
+
+Eventuellt skall Objekt och kunder inte kunna tas bort om dom har varit
+i drift (använda)
+
+Vid Ändra Databas återläses inte allt. Om man tar bort en rapport finns den
+fortfarande i grundregister.
+
+Backup  Rubriken har ingen funktion i SQL versionen just nu Vad göra?
+
+Sammanställning  Lägg in dummys som talar om att funktionen inte finns
+Eventuellt parameterstyr så att det är samma version vare sig man vill eller inte.
+Vid journalBearbetning avslutas den med Journal  Fel version  Vad skall den heta?
+Tabellen Objects skall ha unikt index på ObjNr.
+
+
+
+

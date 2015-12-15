@@ -1,0 +1,19 @@
+Tack för din bokningsförfrågan
+==============================
+
+Ni önskar en bil av typen #Bokningförfrågan.obtypid#
+mellan #Bokningförfrågan.frm_time# - #Bokningförfrågan.to_time#
+er referens för denna beställning är #Bokningförfrågan.referens#
+
+Kund är #Bokningförfrågan.custorgno# #Bokningförfrågan.custname#
+	#Bokningförfrågan.custtel# 
+
+Förare  #Bokningförfrågan.driverorgno# #Bokningförfrågan.drivername#
+	#Bokningförfrågan.drivertel# 
+
+
+När bokningen har blivit bekräftad så återkommer vi med bokningsbekräftelse.
+
+
+Med Vänliga Hälsningar
+Folkes Biluthyrning AB.

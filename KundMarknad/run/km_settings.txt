@@ -1,0 +1,9 @@
+Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Initial Catalog=Car_Stat;Data Source=SVR01
+1,f:\kundmarknad\skbilar.dbf
+2,f:\kundmarknad\SKkunder.dbf
+1,f:\kundmarknad\sybilar.dbf
+2,f:\kundmarknad\SYkunder.dbf
+1,f:\kundmarknad\vabilar.dbf
+2,f:\kundmarknad\VAkunder.dbf
+1,f:\kundmarknad\osbilar.dbf
+2,f:\kundmarknad\oskunder.dbf

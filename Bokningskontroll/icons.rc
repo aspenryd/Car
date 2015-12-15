@@ -1,0 +1,32 @@
+
+MAINICON ICON mainicon.ico
+ZRUN1 ICON run1.ico
+ZRUN2 ICON run2.ico
+ZERROR ICON zerror.ico
+ZGENERAL ICON zgeneral.ico
+ZMOON1 ICON zmoon1.ico
+ZMOON2 ICON zmoon2.ico
+ZMOON3 ICON zmoon3.ico
+ZMOON4 ICON zmoon4.ico
+ZMOON5 ICON zmoon5.ico
+ZMOON6 ICON zmoon6.ico
+ZMOON7 ICON zmoon7.ico
+ZMOON8 ICON zmoon8.ico
+
+
+#define IDM_CHECK_NOW 1
+#define IDM_SETTINGS 2
+#define IDM_QUIT 3
+
+
+PopMenu MENU
+	{
+		POPUP ""
+			{
+				MENUITEM "&Check Now", 	IDM_CHECK_NOW
+				MENUITEM "&Settings", 	IDM_SETTINGS
+				MENUITEM SEPARATOR
+				MENUITEM "&Quit", 	IDM_QUIT
+			}
+	}
+
