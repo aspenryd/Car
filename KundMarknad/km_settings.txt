@@ -1,0 +1,3 @@
+Provider=SQLOLEDB.1;Password=sa1;Persist Security Info=True;User ID=sa;Initial Catalog=Car_Stat;Data Source=ISIS\SQL2008
+2,C:\data\utv\Henry\Car\CarRepository\trunk\KundMarknad\KMC.out
+1,C:\data\utv\Henry\Car\CarRepository\trunk\KundMarknad\KMV.out

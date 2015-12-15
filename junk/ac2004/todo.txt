@@ -1,0 +1,118 @@
+ACAR
+====
+
+Flikarna objekt och kunder är olika mellan car och acar. (Sökfunktion mm)
++ Fixat och förbättrat
+
+Eventuellt skall Objekt och kunder inte kunna tas bort om dom har varit
+i drift (använda)
+
+Vid Ändra Databas återläses inte allt. Om man tar bort en rapport finns den
+fortfarande i grundregister.
++ Readini läses in
+- Loadreports läses inte in.
+
+Backup  Rubriken har ingen funktion i SQL versionen just nu Vad göra?
++ SQL kommando BACKUP DATABASE Skickas och fungerar.
+
+Sammanställning  Lägg in dummys som talar om att funktionen inte finns
+Eventuellt parameterstyr så att det är samma version vare sig man vill eller inte.
+Vid journalBearbetning avslutas den med Journal  Fel version  Vad skall den heta?
+Tabellen Objects skall ha unikt index på ObjNr.
+
+
+Hjälp fil till acar skall fixas.
+
+
+
+ACAR 2004
+=========
+
+REGISTER
+  KUNDER
+    Flikar
+      - Adress, telefon m.m.
+      - Kundens aktiva kontrakt möjlighet att visa alla. Sorterat på Kontraktsid fallande.
+        + Högerklick: Visa fakturor=Kundens alla fakturor med urval på KOref.
+      - Kundens alla fakturor. Sorterat på Internt fakturanummer. Urval enligt Search.
+        + Högerklick: Visa kontering.
+        + Högerklick: Delfakturera med belopp popup.
+        + Högerklick: Kreditera faktura.
+        + Högerklick: Skriv ut faktura.
+      - Statistik 2 Kolumner. Kolla med gamla ACar.
+        + Högerklick: Skriv ut.
+    Tillägg
+      - Email faktura adress ?
+
+  OBJEKT
+    Flikar
+      - Information m.m.
+      - Objektets aktiva kontrakt möjlighet att visa alla. Sorterat på "Till Tid" fallande.
+        + Högerklick: Visa fakturor=Objektets alla fakturor med urval på KOref.
+      - Objektets alla fakturor. Sorterat på "Till Tid". Urval enligt Search.
+        + Högerklick: Visa kontering.
+        + Högerklick: Delfakturera med belopp popup.
+        + Högerklick: Kreditera faktura.
+        + Högerklick: Skriv ut faktura.
+      - Statistik 2 Kolumner. Kolla med gamla ACar.
+        + Högerklick: Skriv ut.
+
+  Objekttyper
+    Flikar
+      - Alla objekt inom denna objekttyp.
+        + Högerklick: Visa objekt=>
+      - Statistik 2 Kolumner. Kolla med gamla ACar.
+        + Högerklick: Skriv ut.
+
+  Prislista
+    Flikar
+      - 7 Fasta prisrader.
+      - Statistik 2 Kolumner. Kolla med gamla ACar.
+        + Högerklick: Skriv ut.
+
+
+INSTÄLLNINGAR
+  Grunder
+  Firma
+  Param
+    - Nya fält Statistik period - Denna månad, Föregående månad, Detta år, föregående år.
+  Rapporter
+  Kontokort
+  Telefonkoder
+  Kostnader
+  Kontering
+  Betal sätt
+
+  Signaturer
+  Behörighet
+
+
+
+
+
+
+
+HUVUDMENY
+  Arkiv
+    Logga in
+    Logga ut
+    -
+    Välj databas
+    -
+    Avsluta
+  Bearbetning
+    Journal/Kontering
+    Faktura utskrifter < Från Reports
+  Rapporter
+    ...  < Från Reports
+  Underhåll
+    Register
+    Inställningar
+  Verktyg
+    Import Prislista
+    Export Prislista
+    -
+    SQL
+    -
+    Backup
+  Hjälp

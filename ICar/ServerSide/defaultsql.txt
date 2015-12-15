@@ -1,0 +1,14 @@
+Bokning.Contr_Base.ContrId=Bokningförfrågan.contrid
+Bokning.Contr_Base.referens=Bokningförfrågan.referens
+Bokning.Contr_Base.custid=Bokningförfrågan.custid
+Bokning.Contr_Base.driveid=Bokningförfrågan.driveId
+Bokning.Contr_objt.ContrId=Bokningförfrågan.contrid
+Bokning.contr_objt.obtypid=Bokningförfrågan.obtypid
+Bokning.contr_objt.frm_time=Bokningförfrågan.frm_time
+Bokning.contr_objt.out_time=Bokningförfrågan.frm_time
+Bokning.contr_objt.to_time=Bokningförfrågan.to_time
+Bokning.contr_objt.ret_time=Bokningförfrågan.to_time
+Bokning.contr_objt.pclass=Bokningförfrågan.pclass
+Bokning.Contr_sub.ContrId=Bokningförfrågan.contrid
+Betalare.Contr_sub.ContrId=Bokningförfrågan.contrid
+

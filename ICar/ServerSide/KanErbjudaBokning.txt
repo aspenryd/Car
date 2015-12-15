@@ -1,0 +1,19 @@
+Bokningsbekräftelse.
+====================
+
+Tack för din bokning
+
+Ni önskar en bil av typen #KontraktData.obtypid#
+mellan #KontraktData.frm_time# - #KontraktData.to_time#
+er referens för denna beställning är #KontraktData.referens#
+
+Kund är #KontraktData.custid# #KontraktData.custname#
+
+Förare  #KontraktData.driverid# #KontraktData.drivername#
+
+
+Vi har nöjet att bekräfta att vi har reserverat en bil till Er.
+
+
+Med Vänliga Hälsningar
+Folkes Biluthyrning AB.
