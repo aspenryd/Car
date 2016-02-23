@@ -8,385 +8,383 @@
   resources were bound to the produced executable.
 */
 
-#define TeeConst_TeeMsg_FunctionLow 65008
-#define TeeConst_TeeMsg_FunctionAverage 65009
-#define TeeConst_TeeMsg_DefaultFontName 65010
-#define TeeConst_TeeMsg_CheckPointerSize 65011
-#define TeeConst_TeeMsg_FunctionPeriod 65012
-#define TeeConst_TeeMsg_PieOther 65013
-#define TeeConst_TeeMsg_ValuesX 65014
-#define TeeConst_TeeMsg_ValuesY 65015
-#define TeeConst_TeeMsg_ValuesPie 65016
-#define TeeConst_TeeMsg_ValuesBar 65017
-#define TeeConst_TeeMsg_ValuesAngle 65018
-#define TeeConst_TeeMsg_PieSample1 65024
-#define TeeConst_TeeMsg_PieSample2 65025
-#define TeeConst_TeeMsg_PieSample3 65026
-#define TeeConst_TeeMsg_PieSample4 65027
-#define TeeConst_TeeMsg_PieSample5 65028
-#define TeeConst_TeeMsg_PieSample6 65029
-#define TeeConst_TeeMsg_PieSample7 65030
-#define TeeConst_TeeMsg_PieSample8 65031
-#define TeeConst_TeeMsg_GalleryStandard 65032
-#define TeeConst_TeeMsg_GalleryFunctions 65033
-#define TeeConst_TeeMsg_DefaultFontSize 65034
-#define TeeConst_TeeMsg_FunctionAdd 65035
-#define TeeConst_TeeMsg_FunctionSubtract 65036
-#define TeeConst_TeeMsg_FunctionMultiply 65037
-#define TeeConst_TeeMsg_FunctionDivide 65038
-#define TeeConst_TeeMsg_FunctionHigh 65039
-#define TeeConst_TeeMsg_CircularSeries 65040
-#define TeeConst_TeeMsg_BarWidthPercent 65041
-#define TeeConst_TeeMsg_BarOffsetPercent 65042
-#define TeeConst_TeeMsg_DefaultPercentOf 65043
-#define TeeConst_TeeMsg_DefPercentFormat 65044
-#define TeeConst_TeeMsg_DefValueFormat 65045
-#define TeeConst_TeeMsg_AxisTitle 65046
-#define TeeConst_TeeMsg_AxisLabels 65047
-#define TeeConst_TeeMsg_GalleryLine 65048
-#define TeeConst_TeeMsg_GalleryPoint 65049
-#define TeeConst_TeeMsg_GalleryArea 65050
-#define TeeConst_TeeMsg_GalleryBar 65051
-#define TeeConst_TeeMsg_GalleryHorizBar 65052
-#define TeeConst_TeeMsg_GalleryPie 65053
-#define TeeConst_TeeMsg_GalleryFastLine 65054
-#define TeeConst_TeeMsg_Rotation 65055
-#define bdeconst_SLocalTransDirty 65056
-#define TeeConst_TeeMsg_LegendTopPos 65057
-#define TeeConst_TeeMsg_LegendFirstValue 65058
-#define TeeConst_TeeMsg_LegendColorWidth 65059
-#define TeeConst_TeeMsg_SeriesSetDataSource 65060
-#define TeeConst_TeeMsg_SeriesInvDataSource 65061
-#define TeeConst_TeeMsg_FillSample 65062
-#define TeeConst_TeeMsg_Angle 65063
-#define TeeConst_TeeMsg_AxisLogDateTime 65064
-#define TeeConst_TeeMsg_AxisLogNotPositive 65065
-#define TeeConst_TeeMsg_AxisLabelSep 65066
-#define TeeConst_TeeMsg_AxisIncrementNeg 65067
-#define TeeConst_TeeMsg_AxisMinMax 65068
-#define TeeConst_TeeMsg_AxisMaxMin 65069
-#define TeeConst_TeeMsg_AxisLogBase 65070
-#define TeeConst_TeeMsg_3dPercent 65071
-#define bdeconst_SSessionNameMissing 65072
-#define bdeconst_SDatabaseOpen 65073
-#define bdeconst_SDatabaseClosed 65074
-#define bdeconst_SDatabaseHandleSet 65075
-#define bdeconst_SSessionActive 65076
-#define bdeconst_SHandleError 65077
-#define bdeconst_SNoReferenceTableName 65078
-#define bdeconst_SNoParameterValue 65079
-#define bdeconst_SLoginError 65080
-#define bdeconst_SInitError 65081
-#define bdeconst_SIDAPILangID 65082
-#define bdeconst_SBDEError 65083
-#define bdeconst_SNoDataSetField 65084
-#define bdeconst_SNoCachedUpdates 65085
-#define bdeconst_SNoFieldAccess 65086
-#define bdeconst_SUntitled 65087
-#define ADOConst_SUsupportedFieldType 65088
-#define ADOConst_SConnectionRequired 65089
-#define ADOConst_SCantRequery 65090
-#define ADOConst_SNoFilterOptions 65091
-#define ADOConst_SRecordsetNotOpen 65092
-#define ADOConst_sNameAttr 65093
-#define ADOConst_sValueAttr 65094
-#define PrevForm_SPageNumFmt 65095
-#define PageSetupDlg_SSaveAsStandardPrompt 65096
-#define bdeconst_SAutoSessionExclusive 65097
-#define bdeconst_SAutoSessionExists 65098
-#define bdeconst_SAutoSessionActive 65099
-#define bdeconst_SDuplicateDatabaseName 65100
-#define bdeconst_SDuplicateSessionName 65101
-#define bdeconst_SInvalidSessionName 65102
-#define bdeconst_SDatabaseNameMissing 65103
-#define VDBConsts_SDataSourceFixed 65104
-#define VDBConsts_SNotReplicatable 65105
-#define VDBConsts_SPropDefByLookup 65106
-#define VDBConsts_STooManyColumns 65107
-#define VDBConsts_SRemoteLogin 65108
-#define JConsts_sChangeJPGSize 65109
-#define JConsts_sJPEGError 65110
-#define JConsts_sJPEGImageFile 65111
-#define ADOConst_SInvalidEnumValue 65112
-#define ADOConst_SMissingConnection 65113
-#define ADOConst_SNoDetailFilter 65114
-#define ADOConst_SBookmarksRequired 65115
-#define ADOConst_SMissingCommandText 65116
-#define ADOConst_SNoResultSet 65117
-#define ADOConst_SADOCreateError 65118
-#define ADOConst_SEventsNotSupported 65119
-#define ComConst_SOleError 65120
-#define ComConst_SNoMethod 65121
-#define ComConst_SVarNotObject 65122
-#define ComConst_STooManyParams 65123
-#define VDBConsts_SFirstRecord 65124
-#define VDBConsts_SPriorRecord 65125
-#define VDBConsts_SNextRecord 65126
-#define VDBConsts_SLastRecord 65127
-#define VDBConsts_SInsertRecord 65128
-#define VDBConsts_SDeleteRecord 65129
-#define VDBConsts_SEditRecord 65130
-#define VDBConsts_SPostEdit 65131
-#define VDBConsts_SCancelEdit 65132
-#define VDBConsts_SRefreshRecord 65133
-#define VDBConsts_SDeleteRecordQuestion 65134
-#define VDBConsts_SDeleteMultipleRecordsQuestion 65135
-#define DBConsts_STextFalse 65136
-#define DBConsts_STextTrue 65137
-#define DBConsts_SParameterNotFound 65138
-#define DBConsts_SInvalidVersion 65139
-#define DBConsts_SBadFieldType 65140
-#define DBConsts_SProviderSQLNotSupported 65141
-#define DBConsts_SProviderExecuteNotSupported 65142
-#define DBConsts_SExprNoAggOnCalcs 65143
-#define DBConsts_SDataSetUnidirectional 65144
-#define DBConsts_SUnassignedVar 65145
-#define DBConsts_SRecordNotFound 65146
-#define DBConsts_SBcdOverflow 65147
-#define DBConsts_SInvalidBcdValue 65148
-#define DBConsts_SInvalidFormatType 65149
-#define DBConsts_SCouldNotParseTimeStamp 65150
-#define DBConsts_SInvalidSqlTimeStamp 65151
-#define DBConsts_SExprNoRParen 65152
-#define DBConsts_SExprNoRParenOrComma 65153
-#define DBConsts_SExprExpected 65154
-#define DBConsts_SExprBadField 65155
-#define DBConsts_SExprBadNullTest 65156
-#define DBConsts_SExprRangeError 65157
-#define DBConsts_SExprIncorrect 65158
-#define DBConsts_SExprNothing 65159
-#define DBConsts_SExprTypeMis 65160
-#define DBConsts_SExprBadScope 65161
-#define DBConsts_SExprNoArith 65162
-#define DBConsts_SExprNotAgg 65163
-#define DBConsts_SExprBadConst 65164
-#define DBConsts_SExprNoAggFilter 65165
-#define DBConsts_SExprEmptyInList 65166
-#define DBConsts_SInvalidKeywordUse 65167
-#define DBConsts_SNoIndexForFields 65168
-#define DBConsts_SIndexNotFound 65169
-#define DBConsts_SCircularDataLink 65170
-#define DBConsts_SLookupInfoError 65171
-#define DBConsts_SDataSourceChange 65172
-#define DBConsts_SDataSetOpen 65173
-#define DBConsts_SNotEditing 65174
-#define DBConsts_SDataSetClosed 65175
-#define DBConsts_SDataSetEmpty 65176
-#define DBConsts_SDataSetReadOnly 65177
-#define DBConsts_SNestedDataSetClass 65178
-#define DBConsts_SExprTermination 65179
-#define DBConsts_SExprNameError 65180
-#define DBConsts_SExprStringError 65181
-#define DBConsts_SExprInvalidChar 65182
-#define DBConsts_SExprNoLParen 65183
-#define DBConsts_SFieldAccessError 65184
-#define DBConsts_SFieldValueError 65185
-#define DBConsts_SFieldRangeError 65186
-#define DBConsts_SBcdFieldRangeError 65187
-#define DBConsts_SInvalidIntegerValue 65188
-#define DBConsts_SInvalidBoolValue 65189
-#define DBConsts_SInvalidFloatValue 65190
-#define DBConsts_SFieldTypeMismatch 65191
-#define DBConsts_SFieldSizeMismatch 65192
-#define DBConsts_SInvalidVarByteArray 65193
-#define DBConsts_SFieldOutOfRange 65194
-#define DBConsts_SFieldRequired 65195
-#define DBConsts_SDataSetMissing 65196
-#define DBConsts_SInvalidCalcType 65197
-#define DBConsts_SFieldReadOnly 65198
-#define DBConsts_SNotIndexField 65199
-#define ComStrs_sPageIndexError 65200
-#define ComStrs_sInvalidComCtl32 65201
-#define ComStrs_sDateTimeMax 65202
-#define ComStrs_sDateTimeMin 65203
-#define ComStrs_sNeedAllowNone 65204
-#define ComStrs_sFailSetCalDateTime 65205
-#define ComStrs_sFailSetCalMaxSelRange 65206
-#define ComStrs_sFailSetCalMinMaxRange 65207
-#define ComStrs_sFailsetCalSelRange 65208
-#define WinHelpViewer_hNoKeyword 65209
-#define DBConsts_SInvalidFieldSize 65210
-#define DBConsts_SInvalidFieldKind 65211
-#define DBConsts_SUnknownFieldType 65212
-#define DBConsts_SFieldNameMissing 65213
-#define DBConsts_SDuplicateFieldName 65214
-#define DBConsts_SFieldNotFound 65215
-#define ExtCtrls_clNameMenu 65216
-#define ExtCtrls_clNameMenuText 65217
-#define ExtCtrls_clNameNone 65218
-#define ExtCtrls_clNameScrollBar 65219
-#define ExtCtrls_clName3DDkShadow 65220
-#define ExtCtrls_clName3DLight 65221
-#define ExtCtrls_clNameWindow 65222
-#define ExtCtrls_clNameWindowFrame 65223
-#define ExtCtrls_clNameWindowText 65224
-#define ComStrs_sTabFailClear 65225
-#define ComStrs_sTabFailDelete 65226
-#define ComStrs_sTabFailRetrieve 65227
-#define ComStrs_sTabFailGetObject 65228
-#define ComStrs_sTabFailSet 65229
-#define ComStrs_sTabFailSetObject 65230
-#define ComStrs_sTabMustBeMultiLine 65231
-#define ExtCtrls_clNameAppWorkSpace 65232
-#define ExtCtrls_clNameBackground 65233
-#define ExtCtrls_clNameBtnFace 65234
-#define ExtCtrls_clNameBtnHighlight 65235
-#define ExtCtrls_clNameBtnShadow 65236
-#define ExtCtrls_clNameBtnText 65237
-#define ExtCtrls_clNameCaptionText 65238
-#define ExtCtrls_clNameDefault 65239
-#define ExtCtrls_clNameGrayText 65240
-#define ExtCtrls_clNameHighlight 65241
-#define ExtCtrls_clNameHighlightText 65242
-#define ExtCtrls_clNameInactiveBorder 65243
-#define ExtCtrls_clNameInactiveCaption 65244
-#define ExtCtrls_clNameInactiveCaptionText 65245
-#define ExtCtrls_clNameInfoBk 65246
-#define ExtCtrls_clNameInfoText 65247
-#define ExtCtrls_clNameTeal 65248
-#define ExtCtrls_clNameGray 65249
-#define ExtCtrls_clNameSilver 65250
-#define ExtCtrls_clNameRed 65251
-#define ExtCtrls_clNameLime 65252
-#define ExtCtrls_clNameYellow 65253
-#define ExtCtrls_clNameBlue 65254
-#define ExtCtrls_clNameFuchsia 65255
-#define ExtCtrls_clNameAqua 65256
-#define ExtCtrls_clNameWhite 65257
-#define ExtCtrls_clNameMoneyGreen 65258
-#define ExtCtrls_clNameSkyBlue 65259
-#define ExtCtrls_clNameCream 65260
-#define ExtCtrls_clNameMedGray 65261
-#define ExtCtrls_clNameActiveBorder 65262
-#define ExtCtrls_clNameActiveCaption 65263
-#define Consts_SDockTreeRemoveError 65264
-#define Consts_SDockZoneNotFound 65265
-#define Consts_SDockZoneHasNoCtl 65266
-#define Consts_SSeparator 65267
-#define Consts_SErrorSettingCount 65268
-#define Consts_SListBoxMustBeVirtual 65269
-#define HelpIntfs_hNoTableOfContents 65270
-#define HelpIntfs_hNothingFound 65271
-#define HelpIntfs_hNoContext 65272
-#define HelpIntfs_hNoTopics 65273
-#define ExtCtrls_clNameBlack 65274
-#define ExtCtrls_clNameMaroon 65275
-#define ExtCtrls_clNameGreen 65276
-#define ExtCtrls_clNameOlive 65277
-#define ExtCtrls_clNameNavy 65278
-#define ExtCtrls_clNamePurple 65279
-#define Consts_srNone 65280
-#define Consts_sAllFilter 65281
-#define Consts_SInsertLineError 65282
-#define Consts_SInvalidClipFmt 65283
-#define Consts_SIconToClipboard 65284
-#define Consts_SCannotOpenClipboard 65285
-#define Consts_SDefault 65286
-#define Consts_SInvalidMemoSize 65287
-#define Consts_SInvalidPrinterOp 65288
-#define Consts_SNoDefaultPrinter 65289
-#define Consts_SDuplicateMenus 65290
-#define Consts_SPictureLabel 65291
-#define Consts_SPictureDesc 65292
-#define Consts_SPreviewLabel 65293
-#define Consts_SCannotOpenAVI 65294
-#define Consts_SDockedCtlNeedsName 65295
-#define Consts_SmkcEsc 65296
-#define Consts_SmkcEnter 65297
-#define Consts_SmkcSpace 65298
-#define Consts_SmkcPgUp 65299
-#define Consts_SmkcPgDn 65300
-#define Consts_SmkcEnd 65301
-#define Consts_SmkcHome 65302
-#define Consts_SmkcLeft 65303
-#define Consts_SmkcUp 65304
-#define Consts_SmkcRight 65305
-#define Consts_SmkcDown 65306
-#define Consts_SmkcIns 65307
-#define Consts_SmkcDel 65308
-#define Consts_SmkcShift 65309
-#define Consts_SmkcCtrl 65310
-#define Consts_SmkcAlt 65311
-#define Consts_SMsgDlgError 65312
-#define Consts_SMsgDlgInformation 65313
-#define Consts_SMsgDlgConfirm 65314
-#define Consts_SMsgDlgYes 65315
-#define Consts_SMsgDlgNo 65316
-#define Consts_SMsgDlgOK 65317
-#define Consts_SMsgDlgCancel 65318
-#define Consts_SMsgDlgHelp 65319
-#define Consts_SMsgDlgAbort 65320
-#define Consts_SMsgDlgRetry 65321
-#define Consts_SMsgDlgIgnore 65322
-#define Consts_SMsgDlgAll 65323
-#define Consts_SMsgDlgNoToAll 65324
-#define Consts_SMsgDlgYesToAll 65325
-#define Consts_SmkcBkSp 65326
-#define Consts_SmkcTab 65327
-#define Consts_SYesButton 65328
-#define Consts_SNoButton 65329
-#define Consts_SHelpButton 65330
-#define Consts_SCloseButton 65331
-#define Consts_SIgnoreButton 65332
-#define Consts_SRetryButton 65333
-#define Consts_SAbortButton 65334
-#define Consts_SAllButton 65335
-#define Consts_SCannotDragForm 65336
-#define Consts_SVMetafiles 65337
-#define Consts_SVEnhMetafiles 65338
-#define Consts_SVIcons 65339
-#define Consts_SVBitmaps 65340
-#define Consts_SMaskErr 65341
-#define Consts_SMaskEditErr 65342
-#define Consts_SMsgDlgWarning 65343
-#define Consts_SVisibleChanged 65344
-#define Consts_SCannotShowModal 65345
-#define Consts_SPropertyOutOfRange 65346
-#define Consts_SMenuIndexError 65347
-#define Consts_SMenuReinserted 65348
-#define Consts_SMenuNotFound 65349
-#define Consts_SNoTimers 65350
-#define Consts_SNotPrinting 65351
-#define Consts_SPrinting 65352
-#define Consts_SInvalidPrinter 65353
-#define Consts_SDeviceOnPort 65354
-#define Consts_SGroupIndexTooLow 65355
-#define Consts_SNoMDIForm 65356
-#define Consts_SControlParentSetToSelf 65357
-#define Consts_SOKButton 65358
-#define Consts_SCancelButton 65359
-#define Consts_SUnknownExtension 65360
-#define Consts_SUnknownClipboardFormat 65361
-#define Consts_SOutOfResources 65362
-#define Consts_SNoCanvasHandle 65363
-#define Consts_SInvalidImageSize 65364
-#define Consts_SInvalidImageList 65365
-#define Consts_SReplaceImage 65366
-#define Consts_SImageIndexError 65367
-#define Consts_SImageReadFail 65368
-#define Consts_SImageWriteFail 65369
-#define Consts_SWindowDCError 65370
-#define Consts_SWindowClass 65371
-#define Consts_SCannotFocus 65372
-#define Consts_SParentRequired 65373
-#define Consts_SParentGivenNotAParent 65374
-#define Consts_SMDIChildNotVisible 65375
+#define TeeConst_TeeMsg_DefaultFontName 65008
+#define TeeConst_TeeMsg_CheckPointerSize 65009
+#define TeeConst_TeeMsg_FunctionPeriod 65010
+#define TeeConst_TeeMsg_PieOther 65011
+#define TeeConst_TeeMsg_ValuesX 65012
+#define TeeConst_TeeMsg_ValuesY 65013
+#define TeeConst_TeeMsg_ValuesPie 65014
+#define TeeConst_TeeMsg_ValuesBar 65015
+#define TeeConst_TeeMsg_ValuesAngle 65016
+#define TeeConst_TeeMsg_PieSample3 65024
+#define TeeConst_TeeMsg_PieSample4 65025
+#define TeeConst_TeeMsg_PieSample5 65026
+#define TeeConst_TeeMsg_PieSample6 65027
+#define TeeConst_TeeMsg_PieSample7 65028
+#define TeeConst_TeeMsg_PieSample8 65029
+#define TeeConst_TeeMsg_GalleryStandard 65030
+#define TeeConst_TeeMsg_GalleryFunctions 65031
+#define TeeConst_TeeMsg_DefaultFontSize 65032
+#define TeeConst_TeeMsg_FunctionAdd 65033
+#define TeeConst_TeeMsg_FunctionSubtract 65034
+#define TeeConst_TeeMsg_FunctionMultiply 65035
+#define TeeConst_TeeMsg_FunctionDivide 65036
+#define TeeConst_TeeMsg_FunctionHigh 65037
+#define TeeConst_TeeMsg_FunctionLow 65038
+#define TeeConst_TeeMsg_FunctionAverage 65039
+#define TeeConst_TeeMsg_BarOffsetPercent 65040
+#define TeeConst_TeeMsg_DefaultPercentOf 65041
+#define TeeConst_TeeMsg_DefPercentFormat 65042
+#define TeeConst_TeeMsg_DefValueFormat 65043
+#define TeeConst_TeeMsg_AxisTitle 65044
+#define TeeConst_TeeMsg_AxisLabels 65045
+#define TeeConst_TeeMsg_GalleryLine 65046
+#define TeeConst_TeeMsg_GalleryPoint 65047
+#define TeeConst_TeeMsg_GalleryArea 65048
+#define TeeConst_TeeMsg_GalleryBar 65049
+#define TeeConst_TeeMsg_GalleryHorizBar 65050
+#define TeeConst_TeeMsg_GalleryPie 65051
+#define TeeConst_TeeMsg_GalleryFastLine 65052
+#define TeeConst_TeeMsg_Rotation 65053
+#define TeeConst_TeeMsg_PieSample1 65054
+#define TeeConst_TeeMsg_PieSample2 65055
+#define TeeConst_TeeMsg_LegendFirstValue 65056
+#define TeeConst_TeeMsg_LegendColorWidth 65057
+#define TeeConst_TeeMsg_SeriesSetDataSource 65058
+#define TeeConst_TeeMsg_SeriesInvDataSource 65059
+#define TeeConst_TeeMsg_FillSample 65060
+#define TeeConst_TeeMsg_Angle 65061
+#define TeeConst_TeeMsg_AxisLogDateTime 65062
+#define TeeConst_TeeMsg_AxisLogNotPositive 65063
+#define TeeConst_TeeMsg_AxisLabelSep 65064
+#define TeeConst_TeeMsg_AxisIncrementNeg 65065
+#define TeeConst_TeeMsg_AxisMinMax 65066
+#define TeeConst_TeeMsg_AxisMaxMin 65067
+#define TeeConst_TeeMsg_AxisLogBase 65068
+#define TeeConst_TeeMsg_3dPercent 65069
+#define TeeConst_TeeMsg_CircularSeries 65070
+#define TeeConst_TeeMsg_BarWidthPercent 65071
+#define bdeconst_SDatabaseClosed 65072
+#define bdeconst_SDatabaseHandleSet 65073
+#define bdeconst_SSessionActive 65074
+#define bdeconst_SHandleError 65075
+#define bdeconst_SNoReferenceTableName 65076
+#define bdeconst_SNoParameterValue 65077
+#define bdeconst_SLoginError 65078
+#define bdeconst_SInitError 65079
+#define bdeconst_SIDAPILangID 65080
+#define bdeconst_SBDEError 65081
+#define bdeconst_SNoDataSetField 65082
+#define bdeconst_SNoCachedUpdates 65083
+#define bdeconst_SNoFieldAccess 65084
+#define bdeconst_SUntitled 65085
+#define bdeconst_SLocalTransDirty 65086
+#define TeeConst_TeeMsg_LegendTopPos 65087
+#define ADOConst_SCantRequery 65088
+#define ADOConst_SNoFilterOptions 65089
+#define ADOConst_SRecordsetNotOpen 65090
+#define ADOConst_sNameAttr 65091
+#define ADOConst_sValueAttr 65092
+#define PrevForm_SPageNumFmt 65093
+#define PageSetupDlg_SSaveAsStandardPrompt 65094
+#define bdeconst_SAutoSessionExclusive 65095
+#define bdeconst_SAutoSessionExists 65096
+#define bdeconst_SAutoSessionActive 65097
+#define bdeconst_SDuplicateDatabaseName 65098
+#define bdeconst_SDuplicateSessionName 65099
+#define bdeconst_SInvalidSessionName 65100
+#define bdeconst_SDatabaseNameMissing 65101
+#define bdeconst_SSessionNameMissing 65102
+#define bdeconst_SDatabaseOpen 65103
+#define VDBConsts_SPropDefByLookup 65104
+#define VDBConsts_STooManyColumns 65105
+#define VDBConsts_SRemoteLogin 65106
+#define JConsts_sChangeJPGSize 65107
+#define JConsts_sJPEGError 65108
+#define JConsts_sJPEGImageFile 65109
+#define ADOConst_SInvalidEnumValue 65110
+#define ADOConst_SMissingConnection 65111
+#define ADOConst_SNoDetailFilter 65112
+#define ADOConst_SBookmarksRequired 65113
+#define ADOConst_SMissingCommandText 65114
+#define ADOConst_SNoResultSet 65115
+#define ADOConst_SADOCreateError 65116
+#define ADOConst_SEventsNotSupported 65117
+#define ADOConst_SUsupportedFieldType 65118
+#define ADOConst_SConnectionRequired 65119
+#define ComConst_SVarNotObject 65120
+#define ComConst_STooManyParams 65121
+#define VDBConsts_SFirstRecord 65122
+#define VDBConsts_SPriorRecord 65123
+#define VDBConsts_SNextRecord 65124
+#define VDBConsts_SLastRecord 65125
+#define VDBConsts_SInsertRecord 65126
+#define VDBConsts_SDeleteRecord 65127
+#define VDBConsts_SEditRecord 65128
+#define VDBConsts_SPostEdit 65129
+#define VDBConsts_SCancelEdit 65130
+#define VDBConsts_SRefreshRecord 65131
+#define VDBConsts_SDeleteRecordQuestion 65132
+#define VDBConsts_SDeleteMultipleRecordsQuestion 65133
+#define VDBConsts_SDataSourceFixed 65134
+#define VDBConsts_SNotReplicatable 65135
+#define DBConsts_SParameterNotFound 65136
+#define DBConsts_SInvalidVersion 65137
+#define DBConsts_SBadFieldType 65138
+#define DBConsts_SProviderSQLNotSupported 65139
+#define DBConsts_SProviderExecuteNotSupported 65140
+#define DBConsts_SExprNoAggOnCalcs 65141
+#define DBConsts_SDataSetUnidirectional 65142
+#define DBConsts_SUnassignedVar 65143
+#define DBConsts_SRecordNotFound 65144
+#define DBConsts_SBcdOverflow 65145
+#define DBConsts_SInvalidBcdValue 65146
+#define DBConsts_SInvalidFormatType 65147
+#define DBConsts_SCouldNotParseTimeStamp 65148
+#define DBConsts_SInvalidSqlTimeStamp 65149
+#define ComConst_SOleError 65150
+#define ComConst_SNoMethod 65151
+#define DBConsts_SExprExpected 65152
+#define DBConsts_SExprBadField 65153
+#define DBConsts_SExprBadNullTest 65154
+#define DBConsts_SExprRangeError 65155
+#define DBConsts_SExprIncorrect 65156
+#define DBConsts_SExprNothing 65157
+#define DBConsts_SExprTypeMis 65158
+#define DBConsts_SExprBadScope 65159
+#define DBConsts_SExprNoArith 65160
+#define DBConsts_SExprNotAgg 65161
+#define DBConsts_SExprBadConst 65162
+#define DBConsts_SExprNoAggFilter 65163
+#define DBConsts_SExprEmptyInList 65164
+#define DBConsts_SInvalidKeywordUse 65165
+#define DBConsts_STextFalse 65166
+#define DBConsts_STextTrue 65167
+#define DBConsts_SCircularDataLink 65168
+#define DBConsts_SLookupInfoError 65169
+#define DBConsts_SDataSourceChange 65170
+#define DBConsts_SDataSetOpen 65171
+#define DBConsts_SNotEditing 65172
+#define DBConsts_SDataSetClosed 65173
+#define DBConsts_SDataSetEmpty 65174
+#define DBConsts_SDataSetReadOnly 65175
+#define DBConsts_SNestedDataSetClass 65176
+#define DBConsts_SExprTermination 65177
+#define DBConsts_SExprNameError 65178
+#define DBConsts_SExprStringError 65179
+#define DBConsts_SExprInvalidChar 65180
+#define DBConsts_SExprNoLParen 65181
+#define DBConsts_SExprNoRParen 65182
+#define DBConsts_SExprNoRParenOrComma 65183
+#define DBConsts_SFieldRangeError 65184
+#define DBConsts_SBcdFieldRangeError 65185
+#define DBConsts_SInvalidIntegerValue 65186
+#define DBConsts_SInvalidBoolValue 65187
+#define DBConsts_SInvalidFloatValue 65188
+#define DBConsts_SFieldTypeMismatch 65189
+#define DBConsts_SFieldSizeMismatch 65190
+#define DBConsts_SInvalidVarByteArray 65191
+#define DBConsts_SFieldOutOfRange 65192
+#define DBConsts_SFieldRequired 65193
+#define DBConsts_SDataSetMissing 65194
+#define DBConsts_SInvalidCalcType 65195
+#define DBConsts_SFieldReadOnly 65196
+#define DBConsts_SNotIndexField 65197
+#define DBConsts_SNoIndexForFields 65198
+#define DBConsts_SIndexNotFound 65199
+#define ComStrs_sDateTimeMax 65200
+#define ComStrs_sDateTimeMin 65201
+#define ComStrs_sNeedAllowNone 65202
+#define ComStrs_sFailSetCalDateTime 65203
+#define ComStrs_sFailSetCalMaxSelRange 65204
+#define ComStrs_sFailSetCalMinMaxRange 65205
+#define ComStrs_sFailsetCalSelRange 65206
+#define WinHelpViewer_hNoKeyword 65207
+#define DBConsts_SInvalidFieldSize 65208
+#define DBConsts_SInvalidFieldKind 65209
+#define DBConsts_SUnknownFieldType 65210
+#define DBConsts_SFieldNameMissing 65211
+#define DBConsts_SDuplicateFieldName 65212
+#define DBConsts_SFieldNotFound 65213
+#define DBConsts_SFieldAccessError 65214
+#define DBConsts_SFieldValueError 65215
+#define ExtCtrls_clNameNone 65216
+#define ExtCtrls_clNameScrollBar 65217
+#define ExtCtrls_clName3DDkShadow 65218
+#define ExtCtrls_clName3DLight 65219
+#define ExtCtrls_clNameWindow 65220
+#define ExtCtrls_clNameWindowFrame 65221
+#define ExtCtrls_clNameWindowText 65222
+#define ComStrs_sTabFailClear 65223
+#define ComStrs_sTabFailDelete 65224
+#define ComStrs_sTabFailRetrieve 65225
+#define ComStrs_sTabFailGetObject 65226
+#define ComStrs_sTabFailSet 65227
+#define ComStrs_sTabFailSetObject 65228
+#define ComStrs_sTabMustBeMultiLine 65229
+#define ComStrs_sPageIndexError 65230
+#define ComStrs_sInvalidComCtl32 65231
+#define ExtCtrls_clNameBtnFace 65232
+#define ExtCtrls_clNameBtnHighlight 65233
+#define ExtCtrls_clNameBtnShadow 65234
+#define ExtCtrls_clNameBtnText 65235
+#define ExtCtrls_clNameCaptionText 65236
+#define ExtCtrls_clNameDefault 65237
+#define ExtCtrls_clNameGrayText 65238
+#define ExtCtrls_clNameHighlight 65239
+#define ExtCtrls_clNameHighlightText 65240
+#define ExtCtrls_clNameInactiveBorder 65241
+#define ExtCtrls_clNameInactiveCaption 65242
+#define ExtCtrls_clNameInactiveCaptionText 65243
+#define ExtCtrls_clNameInfoBk 65244
+#define ExtCtrls_clNameInfoText 65245
+#define ExtCtrls_clNameMenu 65246
+#define ExtCtrls_clNameMenuText 65247
+#define ExtCtrls_clNameSilver 65248
+#define ExtCtrls_clNameRed 65249
+#define ExtCtrls_clNameLime 65250
+#define ExtCtrls_clNameYellow 65251
+#define ExtCtrls_clNameBlue 65252
+#define ExtCtrls_clNameFuchsia 65253
+#define ExtCtrls_clNameAqua 65254
+#define ExtCtrls_clNameWhite 65255
+#define ExtCtrls_clNameMoneyGreen 65256
+#define ExtCtrls_clNameSkyBlue 65257
+#define ExtCtrls_clNameCream 65258
+#define ExtCtrls_clNameMedGray 65259
+#define ExtCtrls_clNameActiveBorder 65260
+#define ExtCtrls_clNameActiveCaption 65261
+#define ExtCtrls_clNameAppWorkSpace 65262
+#define ExtCtrls_clNameBackground 65263
+#define Consts_SDockZoneHasNoCtl 65264
+#define Consts_SSeparator 65265
+#define Consts_SErrorSettingCount 65266
+#define Consts_SListBoxMustBeVirtual 65267
+#define HelpIntfs_hNoTableOfContents 65268
+#define HelpIntfs_hNothingFound 65269
+#define HelpIntfs_hNoContext 65270
+#define HelpIntfs_hNoTopics 65271
+#define ExtCtrls_clNameBlack 65272
+#define ExtCtrls_clNameMaroon 65273
+#define ExtCtrls_clNameGreen 65274
+#define ExtCtrls_clNameOlive 65275
+#define ExtCtrls_clNameNavy 65276
+#define ExtCtrls_clNamePurple 65277
+#define ExtCtrls_clNameTeal 65278
+#define ExtCtrls_clNameGray 65279
+#define Consts_SInsertLineError 65280
+#define Consts_SInvalidClipFmt 65281
+#define Consts_SIconToClipboard 65282
+#define Consts_SCannotOpenClipboard 65283
+#define Consts_SDefault 65284
+#define Consts_SInvalidMemoSize 65285
+#define Consts_SInvalidPrinterOp 65286
+#define Consts_SNoDefaultPrinter 65287
+#define Consts_SDuplicateMenus 65288
+#define Consts_SPictureLabel 65289
+#define Consts_SPictureDesc 65290
+#define Consts_SPreviewLabel 65291
+#define Consts_SCannotOpenAVI 65292
+#define Consts_SDockedCtlNeedsName 65293
+#define Consts_SDockTreeRemoveError 65294
+#define Consts_SDockZoneNotFound 65295
+#define Consts_SmkcSpace 65296
+#define Consts_SmkcPgUp 65297
+#define Consts_SmkcPgDn 65298
+#define Consts_SmkcEnd 65299
+#define Consts_SmkcHome 65300
+#define Consts_SmkcLeft 65301
+#define Consts_SmkcUp 65302
+#define Consts_SmkcRight 65303
+#define Consts_SmkcDown 65304
+#define Consts_SmkcIns 65305
+#define Consts_SmkcDel 65306
+#define Consts_SmkcShift 65307
+#define Consts_SmkcCtrl 65308
+#define Consts_SmkcAlt 65309
+#define Consts_srNone 65310
+#define Consts_sAllFilter 65311
+#define Consts_SMsgDlgConfirm 65312
+#define Consts_SMsgDlgYes 65313
+#define Consts_SMsgDlgNo 65314
+#define Consts_SMsgDlgOK 65315
+#define Consts_SMsgDlgCancel 65316
+#define Consts_SMsgDlgHelp 65317
+#define Consts_SMsgDlgAbort 65318
+#define Consts_SMsgDlgRetry 65319
+#define Consts_SMsgDlgIgnore 65320
+#define Consts_SMsgDlgAll 65321
+#define Consts_SMsgDlgNoToAll 65322
+#define Consts_SMsgDlgYesToAll 65323
+#define Consts_SmkcBkSp 65324
+#define Consts_SmkcTab 65325
+#define Consts_SmkcEsc 65326
+#define Consts_SmkcEnter 65327
+#define Consts_SHelpButton 65328
+#define Consts_SCloseButton 65329
+#define Consts_SIgnoreButton 65330
+#define Consts_SRetryButton 65331
+#define Consts_SAbortButton 65332
+#define Consts_SAllButton 65333
+#define Consts_SCannotDragForm 65334
+#define Consts_SVMetafiles 65335
+#define Consts_SVEnhMetafiles 65336
+#define Consts_SVIcons 65337
+#define Consts_SVBitmaps 65338
+#define Consts_SMaskErr 65339
+#define Consts_SMaskEditErr 65340
+#define Consts_SMsgDlgWarning 65341
+#define Consts_SMsgDlgError 65342
+#define Consts_SMsgDlgInformation 65343
+#define Consts_SPropertyOutOfRange 65344
+#define Consts_SMenuIndexError 65345
+#define Consts_SMenuReinserted 65346
+#define Consts_SMenuNotFound 65347
+#define Consts_SNoTimers 65348
+#define Consts_SNotPrinting 65349
+#define Consts_SPrinting 65350
+#define Consts_SInvalidPrinter 65351
+#define Consts_SDeviceOnPort 65352
+#define Consts_SGroupIndexTooLow 65353
+#define Consts_SNoMDIForm 65354
+#define Consts_SControlParentSetToSelf 65355
+#define Consts_SOKButton 65356
+#define Consts_SCancelButton 65357
+#define Consts_SYesButton 65358
+#define Consts_SNoButton 65359
+#define Consts_SOutOfResources 65360
+#define Consts_SNoCanvasHandle 65361
+#define Consts_SInvalidImageSize 65362
+#define Consts_SInvalidImageList 65363
+#define Consts_SReplaceImage 65364
+#define Consts_SImageIndexError 65365
+#define Consts_SImageReadFail 65366
+#define Consts_SImageWriteFail 65367
+#define Consts_SWindowDCError 65368
+#define Consts_SWindowClass 65369
+#define Consts_SCannotFocus 65370
+#define Consts_SParentRequired 65371
+#define Consts_SParentGivenNotAParent 65372
+#define Consts_SMDIChildNotVisible 65373
+#define Consts_SVisibleChanged 65374
+#define Consts_SCannotShowModal 65375
 #define RTLConsts_SSortedListError 65376
 #define RTLConsts_STooManyDeleted 65377
 #define RTLConsts_SUnknownGroup 65378
 #define RTLConsts_SUnknownProperty 65379
 #define RTLConsts_SWriteError 65380
-#define RTLConsts_SThreadCreateError 65381
-#define RTLConsts_SThreadError 65382
-#define Consts_SInvalidTabPosition 65383
-#define Consts_SInvalidTabStyle 65384
-#define Consts_SInvalidBitmap 65385
-#define Consts_SInvalidIcon 65386
-#define Consts_SInvalidMetafile 65387
-#define Consts_SInvalidPixelFormat 65388
-#define Consts_SInvalidImage 65389
-#define Consts_SScanLine 65390
-#define Consts_SChangeIconSize 65391
+#define Consts_SInvalidTabPosition 65381
+#define Consts_SInvalidTabStyle 65382
+#define Consts_SInvalidBitmap 65383
+#define Consts_SInvalidIcon 65384
+#define Consts_SInvalidMetafile 65385
+#define Consts_SInvalidPixelFormat 65386
+#define Consts_SInvalidImage 65387
+#define Consts_SScanLine 65388
+#define Consts_SChangeIconSize 65389
+#define Consts_SUnknownExtension 65390
+#define Consts_SUnknownClipboardFormat 65391
 #define RTLConsts_SInvalidPropertyPath 65392
 #define RTLConsts_SInvalidPropertyType 65393
 #define RTLConsts_SInvalidPropertyValue 65394
@@ -533,8 +531,6 @@
 #define SysConst_SEndOfFile 65535
 STRINGTABLE
 BEGIN
-	TeeConst_TeeMsg_FunctionLow,	"Low"
-	TeeConst_TeeMsg_FunctionAverage,	"Average"
 	TeeConst_TeeMsg_DefaultFontName,	"Arial"
 	TeeConst_TeeMsg_CheckPointerSize,	"Pointer size must be greater than zero"
 	TeeConst_TeeMsg_FunctionPeriod,	"Function Period should be >= 0"
@@ -544,8 +540,6 @@ BEGIN
 	TeeConst_TeeMsg_ValuesPie,	"Pie"
 	TeeConst_TeeMsg_ValuesBar,	"Bar"
 	TeeConst_TeeMsg_ValuesAngle,	"Angle"
-	TeeConst_TeeMsg_PieSample1,	"Cars"
-	TeeConst_TeeMsg_PieSample2,	"Phones"
 	TeeConst_TeeMsg_PieSample3,	"Tables"
 	TeeConst_TeeMsg_PieSample4,	"Monitors"
 	TeeConst_TeeMsg_PieSample5,	"Lamps"
@@ -560,8 +554,8 @@ BEGIN
 	TeeConst_TeeMsg_FunctionMultiply,	"Multiply"
 	TeeConst_TeeMsg_FunctionDivide,	"Divide"
 	TeeConst_TeeMsg_FunctionHigh,	"High"
-	TeeConst_TeeMsg_CircularSeries,	"Circular Series dependences are not allowed"
-	TeeConst_TeeMsg_BarWidthPercent,	"Bar Width Percent must be between 1 and 100"
+	TeeConst_TeeMsg_FunctionLow,	"Low"
+	TeeConst_TeeMsg_FunctionAverage,	"Average"
 	TeeConst_TeeMsg_BarOffsetPercent,	"Bar Offset Percent must be between -100% and 100%"
 	TeeConst_TeeMsg_DefaultPercentOf,	"%s of %s"
 	TeeConst_TeeMsg_DefPercentFormat,	"##0.## %"
@@ -576,8 +570,8 @@ BEGIN
 	TeeConst_TeeMsg_GalleryPie,	"Pie"
 	TeeConst_TeeMsg_GalleryFastLine,	"Fast Line"
 	TeeConst_TeeMsg_Rotation,	"Rotation"
-	bdeconst_SLocalTransDirty,	"The transaction isolation level must be dirty read for local databases"
-	TeeConst_TeeMsg_LegendTopPos,	"Top Legend Position must be between 0 and 100 %"
+	TeeConst_TeeMsg_PieSample1,	"Cars"
+	TeeConst_TeeMsg_PieSample2,	"Phones"
 	TeeConst_TeeMsg_LegendFirstValue,	"First Legend Value must be > 0"
 	TeeConst_TeeMsg_LegendColorWidth,	"Legend Color Width must be between 0 and 100 %"
 	TeeConst_TeeMsg_SeriesSetDataSource,	"No ParentChart to validate DataSource"
@@ -592,8 +586,8 @@ BEGIN
 	TeeConst_TeeMsg_AxisMaxMin,	"Axis Maximum Value must be >= Minimum"
 	TeeConst_TeeMsg_AxisLogBase,	"Axis Logarithmic Base should be >= 2"
 	TeeConst_TeeMsg_3dPercent,	"3D effect percent must be between %d and %d"
-	bdeconst_SSessionNameMissing,	"Session name missing"
-	bdeconst_SDatabaseOpen,	"Cannot perform this operation on an open database"
+	TeeConst_TeeMsg_CircularSeries,	"Circular Series dependences are not allowed"
+	TeeConst_TeeMsg_BarWidthPercent,	"Bar Width Percent must be between 1 and 100"
 	bdeconst_SDatabaseClosed,	"Cannot perform this operation on a closed database"
 	bdeconst_SDatabaseHandleSet,	"Database handle owned by a different session"
 	bdeconst_SSessionActive,	"Cannot perform this operation on an active session"
@@ -608,8 +602,8 @@ BEGIN
 	bdeconst_SNoCachedUpdates,	"Not in cached update mode"
 	bdeconst_SNoFieldAccess,	"Cannot access field '%s' in a filter"
 	bdeconst_SUntitled,	"Untitled Application"
-	ADOConst_SUsupportedFieldType,	"Unsupported field type (%s) in field %s"
-	ADOConst_SConnectionRequired,	"A connection component is required for async ExecuteOptions"
+	bdeconst_SLocalTransDirty,	"The transaction isolation level must be dirty read for local databases"
+	TeeConst_TeeMsg_LegendTopPos,	"Top Legend Position must be between 0 and 100 %"
 	ADOConst_SCantRequery,	"Cannot perform a requery after connection has changed"
 	ADOConst_SNoFilterOptions,	"FilterOptions are not supported"
 	ADOConst_SRecordsetNotOpen,	"Recordset is not open"
@@ -624,8 +618,8 @@ BEGIN
 	bdeconst_SDuplicateSessionName,	"Duplicate session name '%s'"
 	bdeconst_SInvalidSessionName,	"Invalid session name %s"
 	bdeconst_SDatabaseNameMissing,	"Database name missing"
-	VDBConsts_SDataSourceFixed,	"Operation not allowed in a DBCtrlGrid"
-	VDBConsts_SNotReplicatable,	"Control cannot be used in a DBCtrlGrid"
+	bdeconst_SSessionNameMissing,	"Session name missing"
+	bdeconst_SDatabaseOpen,	"Cannot perform this operation on an open database"
 	VDBConsts_SPropDefByLookup,	"Property already defined by lookup field"
 	VDBConsts_STooManyColumns,	"Grid requested to display more than 256 columns"
 	VDBConsts_SRemoteLogin,	"Remote Login"
@@ -640,8 +634,8 @@ BEGIN
 	ADOConst_SNoResultSet,	"CommandText does not return a result set"
 	ADOConst_SADOCreateError,	"Error creating object.  Please verify that the Microsoft Data Access Components 2.1 (or later) have been properly installed"
 	ADOConst_SEventsNotSupported,	"Events are not supported with server side TableDirect cursors"
-	ComConst_SOleError,	"OLE error %.8x"
-	ComConst_SNoMethod,	"Method '%s' not supported by automation object"
+	ADOConst_SUsupportedFieldType,	"Unsupported field type (%s) in field %s"
+	ADOConst_SConnectionRequired,	"A connection component is required for async ExecuteOptions"
 	ComConst_SVarNotObject,	"Variant does not reference an automation object"
 	ComConst_STooManyParams,	"Dispatch methods do not support more than 64 parameters"
 	VDBConsts_SFirstRecord,	"First record"
@@ -656,8 +650,8 @@ BEGIN
 	VDBConsts_SRefreshRecord,	"Refresh data"
 	VDBConsts_SDeleteRecordQuestion,	"Delete record?"
 	VDBConsts_SDeleteMultipleRecordsQuestion,	"Delete all selected records?"
-	DBConsts_STextFalse,	"False"
-	DBConsts_STextTrue,	"True"
+	VDBConsts_SDataSourceFixed,	"Operation not allowed in a DBCtrlGrid"
+	VDBConsts_SNotReplicatable,	"Control cannot be used in a DBCtrlGrid"
 	DBConsts_SParameterNotFound,	"Parameter '%s' not found"
 	DBConsts_SInvalidVersion,	"Unable to load bind parameters"
 	DBConsts_SBadFieldType,	"Field '%s' is of an unsupported type"
@@ -672,8 +666,8 @@ BEGIN
 	DBConsts_SInvalidFormatType,	"Invalid format type for BCD"
 	DBConsts_SCouldNotParseTimeStamp,	"Could not parse SQL TimeStamp string"
 	DBConsts_SInvalidSqlTimeStamp,	"Invalid SQL date/time values"
-	DBConsts_SExprNoRParen,	"')' expected but %s found"
-	DBConsts_SExprNoRParenOrComma,	"')' or ',' expected but %s found"
+	ComConst_SOleError,	"OLE error %.8x"
+	ComConst_SNoMethod,	"Method '%s' not supported by automation object"
 	DBConsts_SExprExpected,	"Expression expected but %s found"
 	DBConsts_SExprBadField,	"Field '%s' cannot be used in a filter expression"
 	DBConsts_SExprBadNullTest,	"NULL only allowed with '=' and '<>'"
@@ -688,8 +682,8 @@ BEGIN
 	DBConsts_SExprNoAggFilter,	"Aggregate expressions not allowed in filters"
 	DBConsts_SExprEmptyInList,	"IN predicate list may not be empty"
 	DBConsts_SInvalidKeywordUse,	"Invalid use of keyword"
-	DBConsts_SNoIndexForFields,	"No index for fields '%s'"
-	DBConsts_SIndexNotFound,	"Index '%s' not found"
+	DBConsts_STextFalse,	"False"
+	DBConsts_STextTrue,	"True"
 	DBConsts_SCircularDataLink,	"Circular datalinks are not allowed"
 	DBConsts_SLookupInfoError,	"Lookup information for field '%s' is incomplete"
 	DBConsts_SDataSourceChange,	"DataSource cannot be changed"
@@ -704,8 +698,8 @@ BEGIN
 	DBConsts_SExprStringError,	"Unterminated string constant"
 	DBConsts_SExprInvalidChar,	"Invalid filter expression character: '%s'"
 	DBConsts_SExprNoLParen,	"'(' expected but %s found"
-	DBConsts_SFieldAccessError,	"Cannot access field '%s' as type %s"
-	DBConsts_SFieldValueError,	"Invalid value for field '%s'"
+	DBConsts_SExprNoRParen,	"')' expected but %s found"
+	DBConsts_SExprNoRParenOrComma,	"')' or ',' expected but %s found"
 	DBConsts_SFieldRangeError,	"%g is not a valid value for field '%s'. The allowed range is %g to %g"
 	DBConsts_SBcdFieldRangeError,	"%s is not a valid value for field '%s'. The allowed range is %s to %s"
 	DBConsts_SInvalidIntegerValue,	"'%s' is not a valid integer value for field '%s'"
@@ -720,8 +714,8 @@ BEGIN
 	DBConsts_SInvalidCalcType,	"Field '%s' cannot be a calculated or lookup field"
 	DBConsts_SFieldReadOnly,	"Field '%s' cannot be modified"
 	DBConsts_SNotIndexField,	"Field '%s' is not indexed and cannot be modified"
-	ComStrs_sPageIndexError,	"%d is an invalid PageIndex value.  PageIndex must be between 0 and %d"
-	ComStrs_sInvalidComCtl32,	"This control requires version 4.70 or greater of COMCTL32.DLL"
+	DBConsts_SNoIndexForFields,	"No index for fields '%s'"
+	DBConsts_SIndexNotFound,	"Index '%s' not found"
 	ComStrs_sDateTimeMax,	"Date exceeds maximum of %s"
 	ComStrs_sDateTimeMin,	"Date is less than minimum of %s"
 	ComStrs_sNeedAllowNone,	"You must be in ShowCheckbox mode to set to this date"
@@ -736,8 +730,8 @@ BEGIN
 	DBConsts_SFieldNameMissing,	"Field name missing"
 	DBConsts_SDuplicateFieldName,	"Duplicate field name '%s'"
 	DBConsts_SFieldNotFound,	"Field '%s' not found"
-	ExtCtrls_clNameMenu,	"Menu Background"
-	ExtCtrls_clNameMenuText,	"Menu Text"
+	DBConsts_SFieldAccessError,	"Cannot access field '%s' as type %s"
+	DBConsts_SFieldValueError,	"Invalid value for field '%s'"
 	ExtCtrls_clNameNone,	"None"
 	ExtCtrls_clNameScrollBar,	"Scroll Bar"
 	ExtCtrls_clName3DDkShadow,	"3D Dark Shadow"
@@ -752,8 +746,8 @@ BEGIN
 	ComStrs_sTabFailSet,	"Failed to set tab \"%s\" at index %d"
 	ComStrs_sTabFailSetObject,	"Failed to set object at index %d"
 	ComStrs_sTabMustBeMultiLine,	"MultiLine must be True when TabPosition is tpLeft or tpRight"
-	ExtCtrls_clNameAppWorkSpace,	"Application Workspace"
-	ExtCtrls_clNameBackground,	"Background"
+	ComStrs_sPageIndexError,	"%d is an invalid PageIndex value.  PageIndex must be between 0 and %d"
+	ComStrs_sInvalidComCtl32,	"This control requires version 4.70 or greater of COMCTL32.DLL"
 	ExtCtrls_clNameBtnFace,	"Button Face"
 	ExtCtrls_clNameBtnHighlight,	"Button Highlight"
 	ExtCtrls_clNameBtnShadow,	"Button Shadow"
@@ -768,8 +762,8 @@ BEGIN
 	ExtCtrls_clNameInactiveCaptionText,	"Inactive Caption Text"
 	ExtCtrls_clNameInfoBk,	"Info Background"
 	ExtCtrls_clNameInfoText,	"Info Text"
-	ExtCtrls_clNameTeal,	"Teal"
-	ExtCtrls_clNameGray,	"Gray"
+	ExtCtrls_clNameMenu,	"Menu Background"
+	ExtCtrls_clNameMenuText,	"Menu Text"
 	ExtCtrls_clNameSilver,	"Silver"
 	ExtCtrls_clNameRed,	"Red"
 	ExtCtrls_clNameLime,	"Lime"
@@ -784,8 +778,8 @@ BEGIN
 	ExtCtrls_clNameMedGray,	"Medium Gray"
 	ExtCtrls_clNameActiveBorder,	"Active Border"
 	ExtCtrls_clNameActiveCaption,	"Active Caption"
-	Consts_SDockTreeRemoveError,	"Error removing control from dock tree"
-	Consts_SDockZoneNotFound,	" - Dock zone not found"
+	ExtCtrls_clNameAppWorkSpace,	"Application Workspace"
+	ExtCtrls_clNameBackground,	"Background"
 	Consts_SDockZoneHasNoCtl,	" - Dock zone has no control"
 	Consts_SSeparator,	"Separator"
 	Consts_SErrorSettingCount,	"Error setting %s.Count"
@@ -800,8 +794,8 @@ BEGIN
 	ExtCtrls_clNameOlive,	"Olive"
 	ExtCtrls_clNameNavy,	"Navy"
 	ExtCtrls_clNamePurple,	"Purple"
-	Consts_srNone,	"(None)"
-	Consts_sAllFilter,	"All"
+	ExtCtrls_clNameTeal,	"Teal"
+	ExtCtrls_clNameGray,	"Gray"
 	Consts_SInsertLineError,	"Unable to insert a line"
 	Consts_SInvalidClipFmt,	"Invalid clipboard format"
 	Consts_SIconToClipboard,	"Clipboard does not support Icons"
@@ -816,8 +810,8 @@ BEGIN
 	Consts_SPreviewLabel,	"Preview"
 	Consts_SCannotOpenAVI,	"Cannot open AVI"
 	Consts_SDockedCtlNeedsName,	"Docked control must have a name"
-	Consts_SmkcEsc,	"Esc"
-	Consts_SmkcEnter,	"Enter"
+	Consts_SDockTreeRemoveError,	"Error removing control from dock tree"
+	Consts_SDockZoneNotFound,	" - Dock zone not found"
 	Consts_SmkcSpace,	"Space"
 	Consts_SmkcPgUp,	"PgUp"
 	Consts_SmkcPgDn,	"PgDn"
@@ -832,8 +826,8 @@ BEGIN
 	Consts_SmkcShift,	"Shift+"
 	Consts_SmkcCtrl,	"Ctrl+"
 	Consts_SmkcAlt,	"Alt+"
-	Consts_SMsgDlgError,	"Error"
-	Consts_SMsgDlgInformation,	"Information"
+	Consts_srNone,	"(None)"
+	Consts_sAllFilter,	"All"
 	Consts_SMsgDlgConfirm,	"Confirm"
 	Consts_SMsgDlgYes,	"&Yes"
 	Consts_SMsgDlgNo,	"&No"
@@ -848,8 +842,8 @@ BEGIN
 	Consts_SMsgDlgYesToAll,	"Yes to &All"
 	Consts_SmkcBkSp,	"BkSp"
 	Consts_SmkcTab,	"Tab"
-	Consts_SYesButton,	"&Yes"
-	Consts_SNoButton,	"&No"
+	Consts_SmkcEsc,	"Esc"
+	Consts_SmkcEnter,	"Enter"
 	Consts_SHelpButton,	"&Help"
 	Consts_SCloseButton,	"&Close"
 	Consts_SIgnoreButton,	"&Ignore"
@@ -864,8 +858,8 @@ BEGIN
 	Consts_SMaskErr,	"Invalid input value"
 	Consts_SMaskEditErr,	"Invalid input value.  Use escape key to abandon changes"
 	Consts_SMsgDlgWarning,	"Warning"
-	Consts_SVisibleChanged,	"Cannot change Visible in OnShow or OnHide"
-	Consts_SCannotShowModal,	"Cannot make a visible window modal"
+	Consts_SMsgDlgError,	"Error"
+	Consts_SMsgDlgInformation,	"Information"
 	Consts_SPropertyOutOfRange,	"%s property out of range"
 	Consts_SMenuIndexError,	"Menu index out of range"
 	Consts_SMenuReinserted,	"Menu inserted twice"
@@ -880,8 +874,8 @@ BEGIN
 	Consts_SControlParentSetToSelf,	"A control cannot have itself as its parent"
 	Consts_SOKButton,	"OK"
 	Consts_SCancelButton,	"Cancel"
-	Consts_SUnknownExtension,	"Unknown picture file extension (.%s)"
-	Consts_SUnknownClipboardFormat,	"Unsupported clipboard format"
+	Consts_SYesButton,	"&Yes"
+	Consts_SNoButton,	"&No"
 	Consts_SOutOfResources,	"Out of system resources"
 	Consts_SNoCanvasHandle,	"Canvas does not allow drawing"
 	Consts_SInvalidImageSize,	"Invalid image size"
@@ -896,13 +890,13 @@ BEGIN
 	Consts_SParentRequired,	"Control '%s' has no parent window"
 	Consts_SParentGivenNotAParent,	"Parent given is not a parent of '%s'"
 	Consts_SMDIChildNotVisible,	"Cannot hide an MDI Child Form"
+	Consts_SVisibleChanged,	"Cannot change Visible in OnShow or OnHide"
+	Consts_SCannotShowModal,	"Cannot make a visible window modal"
 	RTLConsts_SSortedListError,	"Operation not allowed on sorted list"
 	RTLConsts_STooManyDeleted,	"Too many rows or columns deleted"
 	RTLConsts_SUnknownGroup,	"%s not in a class registration group"
 	RTLConsts_SUnknownProperty,	"Property %s does not exist"
 	RTLConsts_SWriteError,	"Stream write error"
-	RTLConsts_SThreadCreateError,	"Thread creation error: %s"
-	RTLConsts_SThreadError,	"Thread Error: %s (%d)"
 	Consts_SInvalidTabPosition,	"Tab position incompatible with current tab style"
 	Consts_SInvalidTabStyle,	"Tab style incompatible with current tab position"
 	Consts_SInvalidBitmap,	"Bitmap image is not valid"
@@ -912,6 +906,8 @@ BEGIN
 	Consts_SInvalidImage,	"Invalid image"
 	Consts_SScanLine,	"Scan line index out of range"
 	Consts_SChangeIconSize,	"Cannot change the size of an icon"
+	Consts_SUnknownExtension,	"Unknown picture file extension (.%s)"
+	Consts_SUnknownClipboardFormat,	"Unsupported clipboard format"
 	RTLConsts_SInvalidPropertyPath,	"Invalid property path"
 	RTLConsts_SInvalidPropertyType,	"Invalid property type: %s"
 	RTLConsts_SInvalidPropertyValue,	"Invalid property value"

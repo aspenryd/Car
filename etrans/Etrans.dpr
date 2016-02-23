@@ -18,7 +18,6 @@
 program ETrans;
 
 uses
-  ExceptionLog,
   Forms,
   SysUtils,
   dialogs,

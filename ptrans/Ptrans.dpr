@@ -21,7 +21,6 @@
 program PTrans;
 
 uses
-  ExceptionLog,
   Forms,
   SysUtils,
   dialogs,

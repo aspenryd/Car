@@ -38,7 +38,6 @@
 program ACar2000;
 
 uses
-  ExceptionLog,
   Forms,
   Main in 'Main.pas' {frmMain},
   Dmod in 'Dmod.pas' {Dmod2: TDataModule},

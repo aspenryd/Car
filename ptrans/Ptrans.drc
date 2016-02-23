@@ -8,262 +8,260 @@
   resources were bound to the produced executable.
 */
 
-#define bdeconst_SNoDataSetField 65136
-#define bdeconst_SNoCachedUpdates 65137
-#define bdeconst_SNoFieldAccess 65138
-#define bdeconst_SUntitled 65139
-#define bdeconst_SLocalTransDirty 65140
-#define VDBConsts_SFirstRecord 65141
-#define VDBConsts_SPriorRecord 65142
-#define VDBConsts_SNextRecord 65143
-#define VDBConsts_SLastRecord 65144
-#define VDBConsts_SInsertRecord 65145
-#define VDBConsts_SDeleteRecord 65146
-#define VDBConsts_SEditRecord 65147
-#define VDBConsts_SPostEdit 65148
-#define VDBConsts_SCancelEdit 65149
-#define VDBConsts_SRefreshRecord 65150
-#define VDBConsts_SRemoteLogin 65151
-#define bdeconst_SDuplicateDatabaseName 65152
-#define bdeconst_SDuplicateSessionName 65153
-#define bdeconst_SInvalidSessionName 65154
-#define bdeconst_SDatabaseNameMissing 65155
-#define bdeconst_SSessionNameMissing 65156
-#define bdeconst_SDatabaseOpen 65157
-#define bdeconst_SDatabaseClosed 65158
-#define bdeconst_SDatabaseHandleSet 65159
-#define bdeconst_SSessionActive 65160
-#define bdeconst_SHandleError 65161
-#define bdeconst_SNoReferenceTableName 65162
-#define bdeconst_SNoParameterValue 65163
-#define bdeconst_SLoginError 65164
-#define bdeconst_SInitError 65165
-#define bdeconst_SIDAPILangID 65166
-#define bdeconst_SBDEError 65167
-#define ADOConst_SNoDetailFilter 65168
-#define ADOConst_SBookmarksRequired 65169
-#define ADOConst_SMissingCommandText 65170
-#define ADOConst_SNoResultSet 65171
-#define ADOConst_SADOCreateError 65172
-#define ADOConst_SEventsNotSupported 65173
-#define ADOConst_SUsupportedFieldType 65174
-#define ADOConst_SConnectionRequired 65175
-#define ADOConst_SCantRequery 65176
-#define ADOConst_SNoFilterOptions 65177
-#define ADOConst_SRecordsetNotOpen 65178
-#define ADOConst_sNameAttr 65179
-#define ADOConst_sValueAttr 65180
-#define bdeconst_SAutoSessionExclusive 65181
-#define bdeconst_SAutoSessionExists 65182
-#define bdeconst_SAutoSessionActive 65183
-#define DBConsts_SProviderExecuteNotSupported 65184
-#define DBConsts_SExprNoAggOnCalcs 65185
-#define DBConsts_SDataSetUnidirectional 65186
-#define DBConsts_SUnassignedVar 65187
-#define DBConsts_SRecordNotFound 65188
-#define DBConsts_SBcdOverflow 65189
-#define DBConsts_SInvalidBcdValue 65190
-#define DBConsts_SInvalidFormatType 65191
-#define DBConsts_SCouldNotParseTimeStamp 65192
-#define DBConsts_SInvalidSqlTimeStamp 65193
-#define ComConst_SOleError 65194
-#define ComConst_SNoMethod 65195
-#define ComConst_SVarNotObject 65196
-#define ComConst_STooManyParams 65197
-#define ADOConst_SInvalidEnumValue 65198
-#define ADOConst_SMissingConnection 65199
-#define DBConsts_SExprIncorrect 65200
-#define DBConsts_SExprNothing 65201
-#define DBConsts_SExprTypeMis 65202
-#define DBConsts_SExprBadScope 65203
-#define DBConsts_SExprNoArith 65204
-#define DBConsts_SExprNotAgg 65205
-#define DBConsts_SExprBadConst 65206
-#define DBConsts_SExprNoAggFilter 65207
-#define DBConsts_SExprEmptyInList 65208
-#define DBConsts_SInvalidKeywordUse 65209
-#define DBConsts_STextFalse 65210
-#define DBConsts_STextTrue 65211
-#define DBConsts_SParameterNotFound 65212
-#define DBConsts_SInvalidVersion 65213
-#define DBConsts_SBadFieldType 65214
-#define DBConsts_SProviderSQLNotSupported 65215
-#define DBConsts_SDataSetOpen 65216
-#define DBConsts_SNotEditing 65217
-#define DBConsts_SDataSetClosed 65218
-#define DBConsts_SDataSetReadOnly 65219
-#define DBConsts_SNestedDataSetClass 65220
-#define DBConsts_SExprTermination 65221
-#define DBConsts_SExprNameError 65222
-#define DBConsts_SExprStringError 65223
-#define DBConsts_SExprInvalidChar 65224
-#define DBConsts_SExprNoLParen 65225
-#define DBConsts_SExprNoRParen 65226
-#define DBConsts_SExprNoRParenOrComma 65227
-#define DBConsts_SExprExpected 65228
-#define DBConsts_SExprBadField 65229
-#define DBConsts_SExprBadNullTest 65230
-#define DBConsts_SExprRangeError 65231
-#define DBConsts_SInvalidBoolValue 65232
-#define DBConsts_SInvalidFloatValue 65233
-#define DBConsts_SFieldTypeMismatch 65234
-#define DBConsts_SFieldSizeMismatch 65235
-#define DBConsts_SInvalidVarByteArray 65236
-#define DBConsts_SFieldOutOfRange 65237
-#define DBConsts_SFieldRequired 65238
-#define DBConsts_SDataSetMissing 65239
-#define DBConsts_SInvalidCalcType 65240
-#define DBConsts_SFieldReadOnly 65241
-#define DBConsts_SNotIndexField 65242
-#define DBConsts_SNoIndexForFields 65243
-#define DBConsts_SIndexNotFound 65244
-#define DBConsts_SCircularDataLink 65245
-#define DBConsts_SLookupInfoError 65246
-#define DBConsts_SDataSourceChange 65247
-#define ExtCtrls_clName3DLight 65248
-#define ExtCtrls_clNameWindow 65249
-#define ExtCtrls_clNameWindowFrame 65250
-#define ExtCtrls_clNameWindowText 65251
-#define WinHelpViewer_hNoKeyword 65252
-#define DBConsts_SInvalidFieldSize 65253
-#define DBConsts_SInvalidFieldKind 65254
-#define DBConsts_SUnknownFieldType 65255
-#define DBConsts_SFieldNameMissing 65256
-#define DBConsts_SDuplicateFieldName 65257
-#define DBConsts_SFieldNotFound 65258
-#define DBConsts_SFieldAccessError 65259
-#define DBConsts_SFieldValueError 65260
-#define DBConsts_SFieldRangeError 65261
-#define DBConsts_SBcdFieldRangeError 65262
-#define DBConsts_SInvalidIntegerValue 65263
-#define ExtCtrls_clNameBtnText 65264
-#define ExtCtrls_clNameCaptionText 65265
-#define ExtCtrls_clNameDefault 65266
-#define ExtCtrls_clNameGrayText 65267
-#define ExtCtrls_clNameHighlight 65268
-#define ExtCtrls_clNameHighlightText 65269
-#define ExtCtrls_clNameInactiveBorder 65270
-#define ExtCtrls_clNameInactiveCaption 65271
-#define ExtCtrls_clNameInactiveCaptionText 65272
-#define ExtCtrls_clNameInfoBk 65273
-#define ExtCtrls_clNameInfoText 65274
-#define ExtCtrls_clNameMenu 65275
-#define ExtCtrls_clNameMenuText 65276
-#define ExtCtrls_clNameNone 65277
-#define ExtCtrls_clNameScrollBar 65278
-#define ExtCtrls_clName3DDkShadow 65279
-#define ExtCtrls_clNameYellow 65280
-#define ExtCtrls_clNameBlue 65281
-#define ExtCtrls_clNameFuchsia 65282
-#define ExtCtrls_clNameAqua 65283
-#define ExtCtrls_clNameWhite 65284
-#define ExtCtrls_clNameMoneyGreen 65285
-#define ExtCtrls_clNameSkyBlue 65286
-#define ExtCtrls_clNameCream 65287
-#define ExtCtrls_clNameMedGray 65288
-#define ExtCtrls_clNameActiveBorder 65289
-#define ExtCtrls_clNameActiveCaption 65290
-#define ExtCtrls_clNameAppWorkSpace 65291
-#define ExtCtrls_clNameBackground 65292
-#define ExtCtrls_clNameBtnFace 65293
-#define ExtCtrls_clNameBtnHighlight 65294
-#define ExtCtrls_clNameBtnShadow 65295
-#define Consts_SDockZoneHasNoCtl 65296
-#define HelpIntfs_hNoTableOfContents 65297
-#define HelpIntfs_hNothingFound 65298
-#define HelpIntfs_hNoContext 65299
-#define HelpIntfs_hNoTopics 65300
-#define ExtCtrls_clNameBlack 65301
-#define ExtCtrls_clNameMaroon 65302
-#define ExtCtrls_clNameGreen 65303
-#define ExtCtrls_clNameOlive 65304
-#define ExtCtrls_clNameNavy 65305
-#define ExtCtrls_clNamePurple 65306
-#define ExtCtrls_clNameTeal 65307
-#define ExtCtrls_clNameGray 65308
-#define ExtCtrls_clNameSilver 65309
-#define ExtCtrls_clNameRed 65310
-#define ExtCtrls_clNameLime 65311
-#define Consts_SmkcLeft 65312
-#define Consts_SmkcUp 65313
-#define Consts_SmkcRight 65314
-#define Consts_SmkcDown 65315
-#define Consts_SmkcIns 65316
-#define Consts_SmkcDel 65317
-#define Consts_SmkcShift 65318
-#define Consts_SmkcCtrl 65319
-#define Consts_SmkcAlt 65320
-#define Consts_SInsertLineError 65321
-#define Consts_SIconToClipboard 65322
-#define Consts_SCannotOpenClipboard 65323
-#define Consts_SDuplicateMenus 65324
-#define Consts_SDockedCtlNeedsName 65325
-#define Consts_SDockTreeRemoveError 65326
-#define Consts_SDockZoneNotFound 65327
-#define Consts_SMsgDlgHelp 65328
-#define Consts_SMsgDlgAbort 65329
-#define Consts_SMsgDlgRetry 65330
-#define Consts_SMsgDlgIgnore 65331
-#define Consts_SMsgDlgAll 65332
-#define Consts_SMsgDlgNoToAll 65333
-#define Consts_SMsgDlgYesToAll 65334
-#define Consts_SmkcBkSp 65335
-#define Consts_SmkcTab 65336
-#define Consts_SmkcEsc 65337
-#define Consts_SmkcEnter 65338
-#define Consts_SmkcSpace 65339
-#define Consts_SmkcPgUp 65340
-#define Consts_SmkcPgDn 65341
-#define Consts_SmkcEnd 65342
-#define Consts_SmkcHome 65343
-#define Consts_SRetryButton 65344
-#define Consts_SAbortButton 65345
-#define Consts_SAllButton 65346
-#define Consts_SCannotDragForm 65347
-#define Consts_SVMetafiles 65348
-#define Consts_SVEnhMetafiles 65349
-#define Consts_SVIcons 65350
-#define Consts_SVBitmaps 65351
-#define Consts_SMsgDlgWarning 65352
-#define Consts_SMsgDlgError 65353
-#define Consts_SMsgDlgInformation 65354
-#define Consts_SMsgDlgConfirm 65355
-#define Consts_SMsgDlgYes 65356
-#define Consts_SMsgDlgNo 65357
-#define Consts_SMsgDlgOK 65358
-#define Consts_SMsgDlgCancel 65359
-#define Consts_SVisibleChanged 65360
-#define Consts_SCannotShowModal 65361
-#define Consts_SMenuIndexError 65362
-#define Consts_SMenuReinserted 65363
-#define Consts_SMenuNotFound 65364
-#define Consts_SNoTimers 65365
-#define Consts_SGroupIndexTooLow 65366
-#define Consts_SNoMDIForm 65367
-#define Consts_SControlParentSetToSelf 65368
-#define Consts_SOKButton 65369
-#define Consts_SCancelButton 65370
-#define Consts_SYesButton 65371
-#define Consts_SNoButton 65372
-#define Consts_SHelpButton 65373
-#define Consts_SCloseButton 65374
-#define Consts_SIgnoreButton 65375
-#define Consts_SChangeIconSize 65376
-#define Consts_SUnknownClipboardFormat 65377
-#define Consts_SOutOfResources 65378
-#define Consts_SNoCanvasHandle 65379
-#define Consts_SInvalidImageSize 65380
-#define Consts_SInvalidImageList 65381
-#define Consts_SReplaceImage 65382
-#define Consts_SImageIndexError 65383
-#define Consts_SImageReadFail 65384
-#define Consts_SImageWriteFail 65385
-#define Consts_SWindowDCError 65386
-#define Consts_SWindowClass 65387
-#define Consts_SCannotFocus 65388
-#define Consts_SParentRequired 65389
-#define Consts_SParentGivenNotAParent 65390
-#define Consts_SMDIChildNotVisible 65391
+#define bdeconst_SNoFieldAccess 65136
+#define bdeconst_SUntitled 65137
+#define bdeconst_SLocalTransDirty 65138
+#define VDBConsts_SFirstRecord 65139
+#define VDBConsts_SPriorRecord 65140
+#define VDBConsts_SNextRecord 65141
+#define VDBConsts_SLastRecord 65142
+#define VDBConsts_SInsertRecord 65143
+#define VDBConsts_SDeleteRecord 65144
+#define VDBConsts_SEditRecord 65145
+#define VDBConsts_SPostEdit 65146
+#define VDBConsts_SCancelEdit 65147
+#define VDBConsts_SRefreshRecord 65148
+#define VDBConsts_SRemoteLogin 65149
+#define bdeconst_SInvalidSessionName 65152
+#define bdeconst_SDatabaseNameMissing 65153
+#define bdeconst_SSessionNameMissing 65154
+#define bdeconst_SDatabaseOpen 65155
+#define bdeconst_SDatabaseClosed 65156
+#define bdeconst_SDatabaseHandleSet 65157
+#define bdeconst_SSessionActive 65158
+#define bdeconst_SHandleError 65159
+#define bdeconst_SNoReferenceTableName 65160
+#define bdeconst_SNoParameterValue 65161
+#define bdeconst_SLoginError 65162
+#define bdeconst_SInitError 65163
+#define bdeconst_SIDAPILangID 65164
+#define bdeconst_SBDEError 65165
+#define bdeconst_SNoDataSetField 65166
+#define bdeconst_SNoCachedUpdates 65167
+#define ADOConst_SMissingCommandText 65168
+#define ADOConst_SNoResultSet 65169
+#define ADOConst_SADOCreateError 65170
+#define ADOConst_SEventsNotSupported 65171
+#define ADOConst_SUsupportedFieldType 65172
+#define ADOConst_SConnectionRequired 65173
+#define ADOConst_SCantRequery 65174
+#define ADOConst_SNoFilterOptions 65175
+#define ADOConst_SRecordsetNotOpen 65176
+#define ADOConst_sNameAttr 65177
+#define ADOConst_sValueAttr 65178
+#define bdeconst_SAutoSessionExclusive 65179
+#define bdeconst_SAutoSessionExists 65180
+#define bdeconst_SAutoSessionActive 65181
+#define bdeconst_SDuplicateDatabaseName 65182
+#define bdeconst_SDuplicateSessionName 65183
+#define DBConsts_SDataSetUnidirectional 65184
+#define DBConsts_SUnassignedVar 65185
+#define DBConsts_SRecordNotFound 65186
+#define DBConsts_SBcdOverflow 65187
+#define DBConsts_SInvalidBcdValue 65188
+#define DBConsts_SInvalidFormatType 65189
+#define DBConsts_SCouldNotParseTimeStamp 65190
+#define DBConsts_SInvalidSqlTimeStamp 65191
+#define ComConst_SOleError 65192
+#define ComConst_SNoMethod 65193
+#define ComConst_SVarNotObject 65194
+#define ComConst_STooManyParams 65195
+#define ADOConst_SInvalidEnumValue 65196
+#define ADOConst_SMissingConnection 65197
+#define ADOConst_SNoDetailFilter 65198
+#define ADOConst_SBookmarksRequired 65199
+#define DBConsts_SExprTypeMis 65200
+#define DBConsts_SExprBadScope 65201
+#define DBConsts_SExprNoArith 65202
+#define DBConsts_SExprNotAgg 65203
+#define DBConsts_SExprBadConst 65204
+#define DBConsts_SExprNoAggFilter 65205
+#define DBConsts_SExprEmptyInList 65206
+#define DBConsts_SInvalidKeywordUse 65207
+#define DBConsts_STextFalse 65208
+#define DBConsts_STextTrue 65209
+#define DBConsts_SParameterNotFound 65210
+#define DBConsts_SInvalidVersion 65211
+#define DBConsts_SBadFieldType 65212
+#define DBConsts_SProviderSQLNotSupported 65213
+#define DBConsts_SProviderExecuteNotSupported 65214
+#define DBConsts_SExprNoAggOnCalcs 65215
+#define DBConsts_SDataSetClosed 65216
+#define DBConsts_SDataSetReadOnly 65217
+#define DBConsts_SNestedDataSetClass 65218
+#define DBConsts_SExprTermination 65219
+#define DBConsts_SExprNameError 65220
+#define DBConsts_SExprStringError 65221
+#define DBConsts_SExprInvalidChar 65222
+#define DBConsts_SExprNoLParen 65223
+#define DBConsts_SExprNoRParen 65224
+#define DBConsts_SExprNoRParenOrComma 65225
+#define DBConsts_SExprExpected 65226
+#define DBConsts_SExprBadField 65227
+#define DBConsts_SExprBadNullTest 65228
+#define DBConsts_SExprRangeError 65229
+#define DBConsts_SExprIncorrect 65230
+#define DBConsts_SExprNothing 65231
+#define DBConsts_SFieldTypeMismatch 65232
+#define DBConsts_SFieldSizeMismatch 65233
+#define DBConsts_SInvalidVarByteArray 65234
+#define DBConsts_SFieldOutOfRange 65235
+#define DBConsts_SFieldRequired 65236
+#define DBConsts_SDataSetMissing 65237
+#define DBConsts_SInvalidCalcType 65238
+#define DBConsts_SFieldReadOnly 65239
+#define DBConsts_SNotIndexField 65240
+#define DBConsts_SNoIndexForFields 65241
+#define DBConsts_SIndexNotFound 65242
+#define DBConsts_SCircularDataLink 65243
+#define DBConsts_SLookupInfoError 65244
+#define DBConsts_SDataSourceChange 65245
+#define DBConsts_SDataSetOpen 65246
+#define DBConsts_SNotEditing 65247
+#define ExtCtrls_clNameWindowFrame 65248
+#define ExtCtrls_clNameWindowText 65249
+#define WinHelpViewer_hNoKeyword 65250
+#define DBConsts_SInvalidFieldSize 65251
+#define DBConsts_SInvalidFieldKind 65252
+#define DBConsts_SUnknownFieldType 65253
+#define DBConsts_SFieldNameMissing 65254
+#define DBConsts_SDuplicateFieldName 65255
+#define DBConsts_SFieldNotFound 65256
+#define DBConsts_SFieldAccessError 65257
+#define DBConsts_SFieldValueError 65258
+#define DBConsts_SFieldRangeError 65259
+#define DBConsts_SBcdFieldRangeError 65260
+#define DBConsts_SInvalidIntegerValue 65261
+#define DBConsts_SInvalidBoolValue 65262
+#define DBConsts_SInvalidFloatValue 65263
+#define ExtCtrls_clNameDefault 65264
+#define ExtCtrls_clNameGrayText 65265
+#define ExtCtrls_clNameHighlight 65266
+#define ExtCtrls_clNameHighlightText 65267
+#define ExtCtrls_clNameInactiveBorder 65268
+#define ExtCtrls_clNameInactiveCaption 65269
+#define ExtCtrls_clNameInactiveCaptionText 65270
+#define ExtCtrls_clNameInfoBk 65271
+#define ExtCtrls_clNameInfoText 65272
+#define ExtCtrls_clNameMenu 65273
+#define ExtCtrls_clNameMenuText 65274
+#define ExtCtrls_clNameNone 65275
+#define ExtCtrls_clNameScrollBar 65276
+#define ExtCtrls_clName3DDkShadow 65277
+#define ExtCtrls_clName3DLight 65278
+#define ExtCtrls_clNameWindow 65279
+#define ExtCtrls_clNameFuchsia 65280
+#define ExtCtrls_clNameAqua 65281
+#define ExtCtrls_clNameWhite 65282
+#define ExtCtrls_clNameMoneyGreen 65283
+#define ExtCtrls_clNameSkyBlue 65284
+#define ExtCtrls_clNameCream 65285
+#define ExtCtrls_clNameMedGray 65286
+#define ExtCtrls_clNameActiveBorder 65287
+#define ExtCtrls_clNameActiveCaption 65288
+#define ExtCtrls_clNameAppWorkSpace 65289
+#define ExtCtrls_clNameBackground 65290
+#define ExtCtrls_clNameBtnFace 65291
+#define ExtCtrls_clNameBtnHighlight 65292
+#define ExtCtrls_clNameBtnShadow 65293
+#define ExtCtrls_clNameBtnText 65294
+#define ExtCtrls_clNameCaptionText 65295
+#define HelpIntfs_hNothingFound 65296
+#define HelpIntfs_hNoContext 65297
+#define HelpIntfs_hNoTopics 65298
+#define ExtCtrls_clNameBlack 65299
+#define ExtCtrls_clNameMaroon 65300
+#define ExtCtrls_clNameGreen 65301
+#define ExtCtrls_clNameOlive 65302
+#define ExtCtrls_clNameNavy 65303
+#define ExtCtrls_clNamePurple 65304
+#define ExtCtrls_clNameTeal 65305
+#define ExtCtrls_clNameGray 65306
+#define ExtCtrls_clNameSilver 65307
+#define ExtCtrls_clNameRed 65308
+#define ExtCtrls_clNameLime 65309
+#define ExtCtrls_clNameYellow 65310
+#define ExtCtrls_clNameBlue 65311
+#define Consts_SmkcRight 65312
+#define Consts_SmkcDown 65313
+#define Consts_SmkcIns 65314
+#define Consts_SmkcDel 65315
+#define Consts_SmkcShift 65316
+#define Consts_SmkcCtrl 65317
+#define Consts_SmkcAlt 65318
+#define Consts_SInsertLineError 65319
+#define Consts_SIconToClipboard 65320
+#define Consts_SCannotOpenClipboard 65321
+#define Consts_SDuplicateMenus 65322
+#define Consts_SDockedCtlNeedsName 65323
+#define Consts_SDockTreeRemoveError 65324
+#define Consts_SDockZoneNotFound 65325
+#define Consts_SDockZoneHasNoCtl 65326
+#define HelpIntfs_hNoTableOfContents 65327
+#define Consts_SMsgDlgRetry 65328
+#define Consts_SMsgDlgIgnore 65329
+#define Consts_SMsgDlgAll 65330
+#define Consts_SMsgDlgNoToAll 65331
+#define Consts_SMsgDlgYesToAll 65332
+#define Consts_SmkcBkSp 65333
+#define Consts_SmkcTab 65334
+#define Consts_SmkcEsc 65335
+#define Consts_SmkcEnter 65336
+#define Consts_SmkcSpace 65337
+#define Consts_SmkcPgUp 65338
+#define Consts_SmkcPgDn 65339
+#define Consts_SmkcEnd 65340
+#define Consts_SmkcHome 65341
+#define Consts_SmkcLeft 65342
+#define Consts_SmkcUp 65343
+#define Consts_SAllButton 65344
+#define Consts_SCannotDragForm 65345
+#define Consts_SVMetafiles 65346
+#define Consts_SVEnhMetafiles 65347
+#define Consts_SVIcons 65348
+#define Consts_SVBitmaps 65349
+#define Consts_SMsgDlgWarning 65350
+#define Consts_SMsgDlgError 65351
+#define Consts_SMsgDlgInformation 65352
+#define Consts_SMsgDlgConfirm 65353
+#define Consts_SMsgDlgYes 65354
+#define Consts_SMsgDlgNo 65355
+#define Consts_SMsgDlgOK 65356
+#define Consts_SMsgDlgCancel 65357
+#define Consts_SMsgDlgHelp 65358
+#define Consts_SMsgDlgAbort 65359
+#define Consts_SMenuIndexError 65360
+#define Consts_SMenuReinserted 65361
+#define Consts_SMenuNotFound 65362
+#define Consts_SNoTimers 65363
+#define Consts_SGroupIndexTooLow 65364
+#define Consts_SNoMDIForm 65365
+#define Consts_SControlParentSetToSelf 65366
+#define Consts_SOKButton 65367
+#define Consts_SCancelButton 65368
+#define Consts_SYesButton 65369
+#define Consts_SNoButton 65370
+#define Consts_SHelpButton 65371
+#define Consts_SCloseButton 65372
+#define Consts_SIgnoreButton 65373
+#define Consts_SRetryButton 65374
+#define Consts_SAbortButton 65375
+#define Consts_SOutOfResources 65376
+#define Consts_SNoCanvasHandle 65377
+#define Consts_SInvalidImageSize 65378
+#define Consts_SInvalidImageList 65379
+#define Consts_SReplaceImage 65380
+#define Consts_SImageIndexError 65381
+#define Consts_SImageReadFail 65382
+#define Consts_SImageWriteFail 65383
+#define Consts_SWindowDCError 65384
+#define Consts_SWindowClass 65385
+#define Consts_SCannotFocus 65386
+#define Consts_SParentRequired 65387
+#define Consts_SParentGivenNotAParent 65388
+#define Consts_SMDIChildNotVisible 65389
+#define Consts_SVisibleChanged 65390
+#define Consts_SCannotShowModal 65391
 #define RTLConsts_SListIndexError 65392
 #define RTLConsts_SMemoryStreamError 65393
 #define RTLConsts_SPropertyException 65394
@@ -275,11 +273,11 @@
 #define RTLConsts_SUnknownGroup 65400
 #define RTLConsts_SUnknownProperty 65401
 #define RTLConsts_SWriteError 65402
-#define RTLConsts_SThreadCreateError 65403
-#define RTLConsts_SThreadError 65404
-#define Consts_SInvalidBitmap 65405
-#define Consts_SInvalidIcon 65406
-#define Consts_SInvalidMetafile 65407
+#define Consts_SInvalidBitmap 65403
+#define Consts_SInvalidIcon 65404
+#define Consts_SInvalidMetafile 65405
+#define Consts_SChangeIconSize 65406
+#define Consts_SUnknownClipboardFormat 65407
 #define RTLConsts_SDuplicateClass 65408
 #define RTLConsts_SDuplicateItem 65409
 #define RTLConsts_SDuplicateName 65410
@@ -410,8 +408,6 @@
 #define SysConst_SDiskFull 65535
 STRINGTABLE
 BEGIN
-	bdeconst_SNoDataSetField,	"Missing DataSetField property"
-	bdeconst_SNoCachedUpdates,	"Not in cached update mode"
 	bdeconst_SNoFieldAccess,	"Cannot access field '%s' in a filter"
 	bdeconst_SUntitled,	"Untitled Application"
 	bdeconst_SLocalTransDirty,	"The transaction isolation level must be dirty read for local databases"
@@ -426,8 +422,6 @@ BEGIN
 	VDBConsts_SCancelEdit,	"Cancel edit"
 	VDBConsts_SRefreshRecord,	"Refresh data"
 	VDBConsts_SRemoteLogin,	"Remote Login"
-	bdeconst_SDuplicateDatabaseName,	"Duplicate database name '%s'"
-	bdeconst_SDuplicateSessionName,	"Duplicate session name '%s'"
 	bdeconst_SInvalidSessionName,	"Invalid session name %s"
 	bdeconst_SDatabaseNameMissing,	"Database name missing"
 	bdeconst_SSessionNameMissing,	"Session name missing"
@@ -442,8 +436,8 @@ BEGIN
 	bdeconst_SInitError,	"An error occurred while attempting to initialize the Borland Database Engine (error $%.4x)"
 	bdeconst_SIDAPILangID,	"0009"
 	bdeconst_SBDEError,	"BDE error $%.4x"
-	ADOConst_SNoDetailFilter,	"Filter property cannot be used for detail tables"
-	ADOConst_SBookmarksRequired,	"Dataset does not support bookmarks, which are required for multi-record data controls"
+	bdeconst_SNoDataSetField,	"Missing DataSetField property"
+	bdeconst_SNoCachedUpdates,	"Not in cached update mode"
 	ADOConst_SMissingCommandText,	"Missing %s property"
 	ADOConst_SNoResultSet,	"CommandText does not return a result set"
 	ADOConst_SADOCreateError,	"Error creating object.  Please verify that the Microsoft Data Access Components 2.1 (or later) have been properly installed"
@@ -458,8 +452,8 @@ BEGIN
 	bdeconst_SAutoSessionExclusive,	"Cannot enable AutoSessionName property with more than one session on a form or data-module"
 	bdeconst_SAutoSessionExists,	"Cannot add a session to the form or data-module while session '%s' has AutoSessionName enabled"
 	bdeconst_SAutoSessionActive,	"Cannot modify SessionName while AutoSessionName is enabled"
-	DBConsts_SProviderExecuteNotSupported,	"Execute not supported: %s"
-	DBConsts_SExprNoAggOnCalcs,	"Field '%s' is not the correct type of calculated field to be used in an aggregate, use an internalcalc"
+	bdeconst_SDuplicateDatabaseName,	"Duplicate database name '%s'"
+	bdeconst_SDuplicateSessionName,	"Duplicate session name '%s'"
 	DBConsts_SDataSetUnidirectional,	"Operation not allowed on a unidirectional dataset"
 	DBConsts_SUnassignedVar,	"Unassigned variant value"
 	DBConsts_SRecordNotFound,	"Record not found"
@@ -474,8 +468,8 @@ BEGIN
 	ComConst_STooManyParams,	"Dispatch methods do not support more than 64 parameters"
 	ADOConst_SInvalidEnumValue,	"Invalid Enum Value"
 	ADOConst_SMissingConnection,	"Missing Connection or ConnectionString"
-	DBConsts_SExprIncorrect,	"Incorrectly formed filter expression"
-	DBConsts_SExprNothing,	"nothing"
+	ADOConst_SNoDetailFilter,	"Filter property cannot be used for detail tables"
+	ADOConst_SBookmarksRequired,	"Dataset does not support bookmarks, which are required for multi-record data controls"
 	DBConsts_SExprTypeMis,	"Type mismatch in expression"
 	DBConsts_SExprBadScope,	"Operation cannot mix aggregate value with record-varying value"
 	DBConsts_SExprNoArith,	"Arithmetic in filter expressions not supported"
@@ -490,8 +484,8 @@ BEGIN
 	DBConsts_SInvalidVersion,	"Unable to load bind parameters"
 	DBConsts_SBadFieldType,	"Field '%s' is of an unsupported type"
 	DBConsts_SProviderSQLNotSupported,	"SQL not supported: %s"
-	DBConsts_SDataSetOpen,	"Cannot perform this operation on an open dataset"
-	DBConsts_SNotEditing,	"Dataset not in edit or insert mode"
+	DBConsts_SProviderExecuteNotSupported,	"Execute not supported: %s"
+	DBConsts_SExprNoAggOnCalcs,	"Field '%s' is not the correct type of calculated field to be used in an aggregate, use an internalcalc"
 	DBConsts_SDataSetClosed,	"Cannot perform this operation on a closed dataset"
 	DBConsts_SDataSetReadOnly,	"Cannot modify a read-only dataset"
 	DBConsts_SNestedDataSetClass,	"Nested dataset must inherit from %s"
@@ -506,8 +500,8 @@ BEGIN
 	DBConsts_SExprBadField,	"Field '%s' cannot be used in a filter expression"
 	DBConsts_SExprBadNullTest,	"NULL only allowed with '=' and '<>'"
 	DBConsts_SExprRangeError,	"Constant out of range"
-	DBConsts_SInvalidBoolValue,	"'%s' is not a valid boolean value for field '%s'"
-	DBConsts_SInvalidFloatValue,	"'%s' is not a valid floating point value for field '%s'"
+	DBConsts_SExprIncorrect,	"Incorrectly formed filter expression"
+	DBConsts_SExprNothing,	"nothing"
 	DBConsts_SFieldTypeMismatch,	"Type mismatch for field '%s', expecting: %s actual: %s"
 	DBConsts_SFieldSizeMismatch,	"Size mismatch for field '%s', expecting: %d actual: %d"
 	DBConsts_SInvalidVarByteArray,	"Invalid variant type or size for field '%s'"
@@ -522,8 +516,8 @@ BEGIN
 	DBConsts_SCircularDataLink,	"Circular datalinks are not allowed"
 	DBConsts_SLookupInfoError,	"Lookup information for field '%s' is incomplete"
 	DBConsts_SDataSourceChange,	"DataSource cannot be changed"
-	ExtCtrls_clName3DLight,	"3D Light"
-	ExtCtrls_clNameWindow,	"Window Background"
+	DBConsts_SDataSetOpen,	"Cannot perform this operation on an open dataset"
+	DBConsts_SNotEditing,	"Dataset not in edit or insert mode"
 	ExtCtrls_clNameWindowFrame,	"Window Frame"
 	ExtCtrls_clNameWindowText,	"Window Text"
 	WinHelpViewer_hNoKeyword,	"No help keyword specified."
@@ -538,8 +532,8 @@ BEGIN
 	DBConsts_SFieldRangeError,	"%g is not a valid value for field '%s'. The allowed range is %g to %g"
 	DBConsts_SBcdFieldRangeError,	"%s is not a valid value for field '%s'. The allowed range is %s to %s"
 	DBConsts_SInvalidIntegerValue,	"'%s' is not a valid integer value for field '%s'"
-	ExtCtrls_clNameBtnText,	"Button Text"
-	ExtCtrls_clNameCaptionText,	"Caption Text"
+	DBConsts_SInvalidBoolValue,	"'%s' is not a valid boolean value for field '%s'"
+	DBConsts_SInvalidFloatValue,	"'%s' is not a valid floating point value for field '%s'"
 	ExtCtrls_clNameDefault,	"Default"
 	ExtCtrls_clNameGrayText,	"Gray Text"
 	ExtCtrls_clNameHighlight,	"Highlight Background"
@@ -554,8 +548,8 @@ BEGIN
 	ExtCtrls_clNameNone,	"None"
 	ExtCtrls_clNameScrollBar,	"Scroll Bar"
 	ExtCtrls_clName3DDkShadow,	"3D Dark Shadow"
-	ExtCtrls_clNameYellow,	"Yellow"
-	ExtCtrls_clNameBlue,	"Blue"
+	ExtCtrls_clName3DLight,	"3D Light"
+	ExtCtrls_clNameWindow,	"Window Background"
 	ExtCtrls_clNameFuchsia,	"Fuchsia"
 	ExtCtrls_clNameAqua,	"Aqua"
 	ExtCtrls_clNameWhite,	"White"
@@ -570,8 +564,8 @@ BEGIN
 	ExtCtrls_clNameBtnFace,	"Button Face"
 	ExtCtrls_clNameBtnHighlight,	"Button Highlight"
 	ExtCtrls_clNameBtnShadow,	"Button Shadow"
-	Consts_SDockZoneHasNoCtl,	" - Dock zone has no control"
-	HelpIntfs_hNoTableOfContents,	"Unable to find a Table of Contents"
+	ExtCtrls_clNameBtnText,	"Button Text"
+	ExtCtrls_clNameCaptionText,	"Caption Text"
 	HelpIntfs_hNothingFound,	"No help found for %s"
 	HelpIntfs_hNoContext,	"No context-sensitive help installed"
 	HelpIntfs_hNoTopics,	"No topic-based help system installed"
@@ -586,8 +580,8 @@ BEGIN
 	ExtCtrls_clNameSilver,	"Silver"
 	ExtCtrls_clNameRed,	"Red"
 	ExtCtrls_clNameLime,	"Lime"
-	Consts_SmkcLeft,	"Left"
-	Consts_SmkcUp,	"Up"
+	ExtCtrls_clNameYellow,	"Yellow"
+	ExtCtrls_clNameBlue,	"Blue"
 	Consts_SmkcRight,	"Right"
 	Consts_SmkcDown,	"Down"
 	Consts_SmkcIns,	"Ins"
@@ -602,8 +596,8 @@ BEGIN
 	Consts_SDockedCtlNeedsName,	"Docked control must have a name"
 	Consts_SDockTreeRemoveError,	"Error removing control from dock tree"
 	Consts_SDockZoneNotFound,	" - Dock zone not found"
-	Consts_SMsgDlgHelp,	"&Help"
-	Consts_SMsgDlgAbort,	"&Abort"
+	Consts_SDockZoneHasNoCtl,	" - Dock zone has no control"
+	HelpIntfs_hNoTableOfContents,	"Unable to find a Table of Contents"
 	Consts_SMsgDlgRetry,	"&Retry"
 	Consts_SMsgDlgIgnore,	"&Ignore"
 	Consts_SMsgDlgAll,	"&All"
@@ -618,8 +612,8 @@ BEGIN
 	Consts_SmkcPgDn,	"PgDn"
 	Consts_SmkcEnd,	"End"
 	Consts_SmkcHome,	"Home"
-	Consts_SRetryButton,	"&Retry"
-	Consts_SAbortButton,	"Abort"
+	Consts_SmkcLeft,	"Left"
+	Consts_SmkcUp,	"Up"
 	Consts_SAllButton,	"&All"
 	Consts_SCannotDragForm,	"Cannot drag a form"
 	Consts_SVMetafiles,	"Metafiles"
@@ -634,8 +628,8 @@ BEGIN
 	Consts_SMsgDlgNo,	"&No"
 	Consts_SMsgDlgOK,	"OK"
 	Consts_SMsgDlgCancel,	"Cancel"
-	Consts_SVisibleChanged,	"Cannot change Visible in OnShow or OnHide"
-	Consts_SCannotShowModal,	"Cannot make a visible window modal"
+	Consts_SMsgDlgHelp,	"&Help"
+	Consts_SMsgDlgAbort,	"&Abort"
 	Consts_SMenuIndexError,	"Menu index out of range"
 	Consts_SMenuReinserted,	"Menu inserted twice"
 	Consts_SMenuNotFound,	"Sub-menu is not in menu"
@@ -650,8 +644,8 @@ BEGIN
 	Consts_SHelpButton,	"&Help"
 	Consts_SCloseButton,	"&Close"
 	Consts_SIgnoreButton,	"&Ignore"
-	Consts_SChangeIconSize,	"Cannot change the size of an icon"
-	Consts_SUnknownClipboardFormat,	"Unsupported clipboard format"
+	Consts_SRetryButton,	"&Retry"
+	Consts_SAbortButton,	"Abort"
 	Consts_SOutOfResources,	"Out of system resources"
 	Consts_SNoCanvasHandle,	"Canvas does not allow drawing"
 	Consts_SInvalidImageSize,	"Invalid image size"
@@ -666,6 +660,8 @@ BEGIN
 	Consts_SParentRequired,	"Control '%s' has no parent window"
 	Consts_SParentGivenNotAParent,	"Parent given is not a parent of '%s'"
 	Consts_SMDIChildNotVisible,	"Cannot hide an MDI Child Form"
+	Consts_SVisibleChanged,	"Cannot change Visible in OnShow or OnHide"
+	Consts_SCannotShowModal,	"Cannot make a visible window modal"
 	RTLConsts_SListIndexError,	"List index out of bounds (%d)"
 	RTLConsts_SMemoryStreamError,	"Out of memory while expanding memory stream"
 	RTLConsts_SPropertyException,	"Error reading %s%s%s: %s"
@@ -677,11 +673,11 @@ BEGIN
 	RTLConsts_SUnknownGroup,	"%s not in a class registration group"
 	RTLConsts_SUnknownProperty,	"Property %s does not exist"
 	RTLConsts_SWriteError,	"Stream write error"
-	RTLConsts_SThreadCreateError,	"Thread creation error: %s"
-	RTLConsts_SThreadError,	"Thread Error: %s (%d)"
 	Consts_SInvalidBitmap,	"Bitmap image is not valid"
 	Consts_SInvalidIcon,	"Icon image is not valid"
 	Consts_SInvalidMetafile,	"Metafile is not valid"
+	Consts_SChangeIconSize,	"Cannot change the size of an icon"
+	Consts_SUnknownClipboardFormat,	"Unsupported clipboard format"
 	RTLConsts_SDuplicateClass,	"A class named %s already exists"
 	RTLConsts_SDuplicateItem,	"List does not allow duplicates ($0%x)"
 	RTLConsts_SDuplicateName,	"A component named %s already exists"

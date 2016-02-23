@@ -61,7 +61,6 @@
 program C2;
 
 uses
-  ExceptionLog,
   Forms,
   Sysutils,
   SWSec in '..\reg\SWSec.pas',
